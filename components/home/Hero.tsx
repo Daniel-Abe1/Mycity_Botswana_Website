@@ -11,8 +11,8 @@ const Hero = () => {
       {/* Background video */}
       <video
         className="absolute inset-0 w-full h-full object-cover scale-[1.3]"
-        src="https://cdn-mycityapp.mtn.ng/mycityapp.micro.discovery/Discoveries/website/website/20260121120929-100363cb.mp4"
-        // src="/video/hero-video.webm"
+        // src="https://cdn-mycityapp.mtn.ng/mycityapp.micro.discovery/Discoveries/website/website/20260121120929-100363cb.mp4"
+        src="/video/hero-video.webm"
         autoPlay
         loop
         muted
