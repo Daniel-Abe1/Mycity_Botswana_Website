@@ -7,18 +7,18 @@ const PrivacyPolicyPage = () => {
   return (
     <div>
       <MaxWidthWrapper className="lg:mt-40 max-w-5xl mt-12 flex flex-col gap-1 mb-6">
-        <span className="tracking-wide text-xs text-[#57756A]">LEGAL</span>
-        <h1 className="text-[2.5rem] font-black text-[#103729] leading-14">
+        <span className="tracking-wide text-xs text-[#607D8E]">LEGAL</span>
+        <h1 className="text-[2.5rem] font-black text-[#111111] leading-14">
           Privacy Policy
         </h1>
-        <span className="text-[#57756A]">Last updated: April 2026</span>
+        <span className="text-[#607D8E]">Last updated: April 2026</span>
       </MaxWidthWrapper>
 
       {/* Content */}
       <MaxWidthWrapper className="max-w-5xl">
         <div className="pb-16 prose prose-neutral">
           <p className="text-gray-700 leading-relaxed">
-            MyCityApp respects your privacy and is committed to protecting your
+            MyCityApp Africa respects your privacy and is committed to protecting your
             personal data. This privacy policy will inform you of how we look
             after your personal data when you use our mobile application
             (regardless of where you are located) and tell you about your
@@ -26,11 +26,11 @@ const PrivacyPolicyPage = () => {
           </p>
 
           {/* Table of Contents */}
-          <div className="my-8 p-6 bg-[#F3F7F566] rounded-xl border border-[#E2E9E7]">
-            <h2 className="font-semibold tracking-widest text-[#103729] mb-3 uppercase">
+          <div className="my-8 p-6 bg-[#F1F7FB66] rounded-xl border border-[#DCEAF3]">
+            <h2 className="font-semibold tracking-widest text-[#111111] mb-3 uppercase">
               Table of Contents
             </h2>
-            <ol className="list-decimal list-inside space-y-1 text-[#103729] text-sm grid grid-cols-2 gap-1">
+            <ol className="list-decimal list-inside space-y-1 text-[#111111] text-sm grid grid-cols-2 gap-1">
               <li>
                 <a href="#important-information" className="hover:underline">
                   Important information and who we are
@@ -81,14 +81,14 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 1 */}
           <section id="important-information" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               1. Important Information and Who We Are
             </h2>
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Purpose of this Policy
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              This privacy policy aims to give you information on how MyCityApp
+              This privacy policy aims to give you information on how MyCityApp Africa
               collects and processes your personal data through your use of our
               App, including any data you may provide through our App when you
               use any of our services, and the steps you can take to protect
@@ -103,7 +103,7 @@ const PrivacyPolicyPage = () => {
               we are using your data. This privacy policy supplements other
               notices and privacy policies and is not intended to override them.
             </p>
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Third-party links
             </h3>
             <p className="text-gray-700 leading-relaxed">
@@ -119,7 +119,7 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 2 */}
           <section id="data-we-collect" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               2. The Data We Collect About You
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -189,7 +189,7 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 3 */}
           <section id="how-data-is-collected" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               3. How Is Your Personal Data Collected?
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -236,7 +236,7 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 4 */}
           <section id="how-we-use-data" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               4. How We Use Your Personal Data
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -265,7 +265,7 @@ const PrivacyPolicyPage = () => {
             </h3>
             <div className="overflow-x-auto rounded-xl border border-gray-200 mb-6">
               <table className="w-full text-sm text-gray-700">
-                <thead className="bg-[#103729] text-white">
+                <thead className="bg-[#111111] text-white">
                   <tr>
                     <th className="text-left px-4 py-3 font-medium">
                       Purpose / Activity
@@ -418,7 +418,7 @@ const PrivacyPolicyPage = () => {
                   <tr className="bg-gray-50">
                     <td className="px-4 py-3">
                       To share relevant information in respect of a prospective
-                      sale of MyCityApp, or any of its subsidiaries, or any part
+                      sale of MyCityApp Africa, or any of its subsidiaries, or any part
                       of its or their business.
                     </td>
                     <td className="px-4 py-3">
@@ -500,7 +500,7 @@ const PrivacyPolicyPage = () => {
               </table>
             </div>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Marketing
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -511,7 +511,7 @@ const PrivacyPolicyPage = () => {
               communication channels.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Promotional offers from us
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -521,7 +521,7 @@ const PrivacyPolicyPage = () => {
               services and offers may be relevant for you.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Third-party marketing
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -529,7 +529,7 @@ const PrivacyPolicyPage = () => {
               personal data with any third party for marketing purposes.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Opting out
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -539,7 +539,7 @@ const PrivacyPolicyPage = () => {
               to you, or by contacting us.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Cookies
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -550,7 +550,7 @@ const PrivacyPolicyPage = () => {
               impact your ability to access certain functionalities of the App.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Third-Party Processing
             </h3>
             <p className="text-gray-700 leading-relaxed mb-2">
@@ -559,11 +559,11 @@ const PrivacyPolicyPage = () => {
             </p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
               <li>
-                Service providers acting as processors based in Nigeria who
+                Service providers acting as processors based in Botswana who
                 provide various services on the App.
               </li>
               <li>
-                Regulators and other authorities based in Nigeria who require
+                Regulators and other authorities based in Botswana who require
                 reporting of processing activities in certain circumstances.
               </li>
               <li>
@@ -579,7 +579,7 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 5 */}
           <section id="data-security" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               5. Data Security
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -594,7 +594,7 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 6 */}
           <section id="data-retention" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               6. Data Retention
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -615,7 +615,7 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 7 */}
           <section id="your-legal-rights" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               7. Your Legal Rights
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -638,7 +638,7 @@ const PrivacyPolicyPage = () => {
               contact our Data Protection Officer at{" "}
               <a
                 href="mailto:admin@mycityapp.io"
-                className="text-[#103729] underline font-medium"
+                className="text-[#111111] underline font-medium"
               >
                 admin@mycityapp.io
               </a>
@@ -648,7 +648,7 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 8 */}
           <section id="changes-to-policy" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               8. Changes to the Privacy Policy
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -662,10 +662,10 @@ const PrivacyPolicyPage = () => {
 
           {/* Section 9 */}
           <section id="glossary" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               9. Glossary
             </h2>
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               Lawful processing
             </h3>
             <p className="text-gray-700 leading-relaxed">

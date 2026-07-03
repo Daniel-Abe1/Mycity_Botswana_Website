@@ -28,10 +28,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "MyCityApp Website",
-    template: "%s - MyCityApp",
+    default: "MyCityApp Africa Website",
+    template: "%s - MyCityApp Africa",
   },
-  description: "Welcome to the MyCityApp Website.",
+  description: "Welcome to the MyCityApp Africa Website.",
 };
 
 export default function RootLayout({

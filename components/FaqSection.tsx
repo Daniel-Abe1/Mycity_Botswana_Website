@@ -34,9 +34,9 @@ const Accordion = ({ item }: Props) => {
         <span className="font-medium">{item.title}</span>
 
         {open ? (
-          <CircleMinus className="w-5 h-5 shrink-0 text-[#014339]" />
+          <CircleMinus className="w-5 h-5 shrink-0 text-[#005A8D]" />
         ) : (
-          <CirclePlus className="w-5 h-5 shrink-0 text-[#014339]" />
+          <CirclePlus className="w-5 h-5 shrink-0 text-[#005A8D]" />
         )}
       </button>
 
@@ -62,29 +62,29 @@ const Accordion = ({ item }: Props) => {
 
 const accordionItems = [
   {
-    title: "What can I do on MyCityApp?",
+    title: "What can I do on MyCityApp Africa?",
     content:
       "Navigate, discover businesses, book events, access government services, and explore your city.",
   },
   {
-    title: "Is MyCityApp free to download and use?",
+    title: "Is MyCityApp Africa free to download and use?",
     content:
-      "Yes, MyCityApp is completely free to download and most features are available at no cost.",
+      "Yes, MyCityApp Africa is completely free to download and most features are available at no cost.",
   },
   {
-    title: "Are MyCityApp and MyLagosApp two separate apps?",
+    title: "Is MyCityApp Africa available across Botswana?",
     content:
-      "No, MyLagosApp is part of the MyCityApp platform, focused only on Lagos. MyCityApp expands this to cover all Nigerian cities.",
+      "Yes. MyCityApp Africa brings city discovery, events, local services, navigation and everyday experiences together for communities across Botswana.",
   },
   {
-    title: "Can I pay bills on MyCityApp?",
+    title: "Can I pay bills on MyCityApp Africa?",
     content:
       "Yes, you can pay electricity, cable, and other utility bills directly on the app.",
   },
   {
-    title: "How do I access MyCityApp?",
+    title: "How do I access MyCityApp Africa?",
     content:
-      "You can Download MyCityApp on Google PlayStore or Apple App Store.",
+      "You can Download MyCityApp Africa on Google PlayStore or Apple App Store.",
   },
 ];
 

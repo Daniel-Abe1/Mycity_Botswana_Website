@@ -13,7 +13,7 @@ const sitemap = [
   { name: "Home", href: "/" },
   { name: "Features", href: "/features" },
   { name: "About Us", href: "/about-us" },
-  { name: "Cities", href: "/states" },
+  { name: "Districts", href: "/districts" },
   { name: "Blog", href: "/blog" },
   { name: "FAQs", href: "/faqs" },
   { name: "Events", href: "/events" },
@@ -27,7 +27,7 @@ const sitemap = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#01221D] text-[#CCCFCE] px-6 lg:py-20 pb-18 pt-10">
+    <footer className="relative bg-[#0B0B0B] text-[#CCCFCE] px-6 lg:py-20 pb-18 pt-10">
       <MaxWidthWrapper className=" grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-10">
         {/* Logo & Socials */}
         <div className="flex flex-col gap-3">
@@ -52,7 +52,7 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <p className="text-sm hidden md:block"> © 2026 MyCityApp</p>
+          <p className="text-sm hidden md:block"> © 2026 MyCityApp Africa</p>
         </div>
 
         {/* Footer Sections */}
@@ -119,7 +119,7 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <p className="text-sm"> © 2026 MyCityApp</p>
+          <p className="text-sm"> © 2026 MyCityApp Africa</p>
         </section>
       </MaxWidthWrapper>
     </footer>

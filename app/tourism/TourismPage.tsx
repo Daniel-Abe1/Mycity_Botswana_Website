@@ -62,7 +62,7 @@ const historicalMonuments = [
   {
     title: "Aso Rock",
     location: "Abuja",
-    description: "Nigeria's iconic presidential rock formation",
+    description: "Botswana's iconic presidential rock formation",
     imageUrl: "/img/tourism/Aso Rock.png"
   },
   {
@@ -92,22 +92,22 @@ const SeeNaijaPage = () => {
     <div>
       <section className="h-[75dvh] md:h-[95dvh] relative mb-3">
         <article className="bg-gradient-to-b px-3 from-black/40 via-black/55 to-black/80 relative z-20 h-full w-full flex gap-7 flex-col justify-center items-center text-center">
-          <p className="font-semibold text-2xl text-[#F9C600] md:mt-4 -mt-10">
+          <p className="font-semibold text-2xl text-[#6DA9D2] md:mt-4 -mt-10">
             Tourism
           </p>
           <h5 className="text-4xl md:text-[4.5rem] md:leading-[4.8rem] text-[#F5F5F5] tracking-normal font-inter font-bold md:-mt-5 -mt-3">
-            Discover Nigeria, <br /> Live Nigeria.
+            Discover Botswana, <br /> Live Botswana.
           </h5>
           <p className="text-white max-w-4xl md:text-xl text-base -mt-1">
-            Nigeria isn&apos;t just a place you visit, it&apos;s an experience
-            you live. Dive into Nigeria&apos;s culture, heritage, and hidden
+            Botswana isn&apos;t just a place you visit, it&apos;s an experience
+            you live. Dive into Botswana&apos;s culture, heritage, and hidden
             gems, explore ancient kingdoms, vibrant festivals, breathtaking
             waterfalls, sandy beaches, sacred groves, and historical landmarks
             that remind us who we are.
           </p>
 
           <DownloadAppButton
-            text="Start Exploring Nigeria"
+            text="Start Exploring Botswana"
             maxWidth="max-w-[340px]"
           />
         </article>
@@ -150,15 +150,15 @@ const SeeNaijaPage = () => {
 
       <MaxWidthWrapper className="py-12 px-4 md:px-8">
         <header className="text-center mb-8">
-            <span className="text-sm text-[#EEAD2B] uppercase tracking-wider font-semibold">Cultural Experiences</span>
-          <h4 className="text-4xl md:text-6xl font-semibold mb-6 mt-4 text-[#014339]">
-            Diverse Cultures, <br /> <span className="text-[#677E73]">
+            <span className="text-sm text-[#6DA9D2] uppercase tracking-wider font-semibold">Cultural Experiences</span>
+          <h4 className="text-4xl md:text-6xl font-semibold mb-6 mt-4 text-[#005A8D]">
+            Diverse Cultures, <br /> <span className="text-[#7891A1]">
               Timeless Traditions
             </span>
           </h4>
-          <p className="text-[#677E73] max-w-2xl mx-auto">
+          <p className="text-[#7891A1] max-w-2xl mx-auto">
             From the colorful festivals of the South to the grand durbars of the North,
-Nigeria&apos;s cultural tapestry is woven with over 250 ethnic groups.
+Botswana&apos;s cultural tapestry is woven with over 250 ethnic groups.
           </p>
         </header>
 
@@ -176,7 +176,7 @@ Nigeria&apos;s cultural tapestry is woven with over 250 ethnic groups.
                 fill
                 className="object-cover"
               />
-              <article className="bg-gradient-to-b text-lg from-[#141f1a]/0 via-[#141f1a]/50 to-[#141f1a]/80 h-full
+              <article className="bg-gradient-to-b text-lg from-[#111111]/0 via-[#111111]/50 to-[#111111]/80 h-full
               w-full relative z-10 text-white flex flex-col justify-end p-6">
                <span className="text-sm uppercase tracking-wider">{item.state}</span>
                 <h4 className="font-medium text-2xl">{item.title}</h4>
@@ -190,8 +190,8 @@ Nigeria&apos;s cultural tapestry is woven with over 250 ethnic groups.
       {/* Holiday Destinations Section */}
       <MaxWidthWrapper className="py-16 px-4 md:px-8">
         <header className="text-center mb-12">
-          <span className="text-sm text-[#EEAD2B] uppercase tracking-wider font-semibold">Top Destinations</span>
-          <h4 className="text-4xl md:text-5xl font-semibold mt-4 text-[#014339]">
+          <span className="text-sm text-[#6DA9D2] uppercase tracking-wider font-semibold">Top Destinations</span>
+          <h4 className="text-4xl md:text-5xl font-semibold mt-4 text-[#005A8D]">
             Holiday Destinations
           </h4>
         </header>
@@ -208,7 +208,7 @@ Nigeria&apos;s cultural tapestry is woven with over 250 ethnic groups.
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/70" />
             <div className="absolute bottom-0 left-0 p-8 text-white">
               {holidayDestinations[0].tag && (
-                <span className="inline-block bg-[#EEAD2B] text-[#014339] text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                <span className="inline-block bg-[#6DA9D2] text-[#005A8D] text-xs font-semibold px-3 py-1 rounded-full mb-3">
                   {holidayDestinations[0].tag}
                 </span>
               )}
@@ -245,8 +245,8 @@ Nigeria&apos;s cultural tapestry is woven with over 250 ethnic groups.
       <section className="bg-[#F5F5F5] py-16">
         <MaxWidthWrapper className="px-4 md:px-8">
           <header className="text-center mb-12">
-            <span className="text-sm text-[#EEAD2B] uppercase tracking-wider font-semibold">Historical Landmarks</span>
-            <h4 className="text-4xl md:text-5xl font-semibold mt-4 text-[#014339]">
+            <span className="text-sm text-[#6DA9D2] uppercase tracking-wider font-semibold">Historical Landmarks</span>
+            <h4 className="text-4xl md:text-5xl font-semibold mt-4 text-[#005A8D]">
               Explore Historical monuments
             </h4>
           </header>

@@ -13,7 +13,7 @@ const DownloadAppButton = ({
 
   return (
     <button
-      className={`flex h-16 w-full cursor-pointer ${maxWidth} md:text-xl whitespace-nowrap gap-1 font-semibold items-center justify-center bg-[#FFDF55] hover:bg-[#FFDA00] p-2.5 px-4 text-black rounded-full`}
+      className={`flex h-16 w-full cursor-pointer ${maxWidth} md:text-xl whitespace-nowrap gap-1 font-semibold items-center justify-center bg-[#E8C84A] hover:bg-[#D4B338] p-2.5 px-4 text-black rounded-full shadow-[0_10px_28px_rgba(232,200,74,0.24)] transition-all hover:-translate-y-0.5`}
       onClick={openDownloadModal}
     >
       <span className="pr-1 border-r border-black mr-0.5 py-1">

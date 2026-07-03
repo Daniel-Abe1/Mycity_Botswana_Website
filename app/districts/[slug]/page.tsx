@@ -1,5 +1,5 @@
 import React from 'react'
-import StateTemplatePage from './StateTemplatePage'
+import DistrictTemplatePage from './DistrictTemplatePage'
 
 interface PageProps {
   params: Promise<{
@@ -11,7 +11,7 @@ const page = async ({ params }: PageProps) => {
   const { slug } = await params;
   
   return (
-    <StateTemplatePage slug={slug} />
+    <DistrictTemplatePage slug={slug} />
   )
 }
 

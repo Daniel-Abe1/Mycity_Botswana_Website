@@ -14,7 +14,6 @@ const links = [
   { label: "Tourism", value: "/tourism" },
   { label: "Events", value: "/events" },
   { label: "Blog", value: "/blog" },
-  { label: "MyLagosApp", value: "/states/lagos" },
   { label: "FAQs", value: "/faqs" },
   { label: "Contact Us", value: "/contact-us" },
 ];
@@ -26,7 +25,7 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 lg:fixed lg:pt-8 w-full z-50">
-      <MaxWidthWrapper className="bg-white shadow-md lg:rounded-full lg:px-5 py-1 flex items-center relative">
+      <MaxWidthWrapper className="overflow-hidden border border-[#6DA9D2]/25 bg-white/95 shadow-[0_14px_45px_rgba(0,63,99,0.14)] backdrop-blur-xl lg:rounded-full lg:px-5 py-1 flex items-center relative">
         {/* Logo */}
         <Link href={"/"} className="relative aspect-[2.5/1] h-14.5">
           <Image
@@ -44,7 +43,7 @@ const Navbar = () => {
               <Link
                 href={item.value}
                 className={`p-1 px-2 rounded-sm transition-colors ${
-                  pathname.startsWith(item.value) ? "bg-[#FFEFAA]" : ""
+                  pathname.startsWith(item.value) ? "bg-[#D6E9F5]" : ""
                 }`}
               >
                 {item.label}
@@ -54,7 +53,7 @@ const Navbar = () => {
           <li>
             <button
               onClick={openDownloadModal}
-              className="cursor-pointer p-2.5 px-5 bg-[#FFDF55] hover:bg-[#FFDA00] text-[#01221D] rounded-full font-semibold"
+              className="cursor-pointer p-2.5 px-5 bg-[#E8C84A] hover:bg-[#D4B338] text-[#0B0B0B] rounded-full font-semibold shadow-[0_8px_20px_rgba(232,200,74,0.25)] transition-all hover:-translate-y-0.5"
             >
               Get the app
             </button>
@@ -83,7 +82,7 @@ const Navbar = () => {
                   href={item.value}
                   onClick={() => setOpen(false)}
                   className={`block px-6 py-4 transition-colors ${
-                    pathname.startsWith(item.value) ? "bg-[#FFEFAA] " : ""
+                    pathname.startsWith(item.value) ? "bg-[#D6E9F5] " : ""
                   }`}
                 >
                   {item.label}
@@ -93,7 +92,7 @@ const Navbar = () => {
             <li className="px-6 py-4">
               <button
                 onClick={openDownloadModal}
-                className="w-full p-3 bg-[#FFDF55] hover:bg-[#FFDA00] cursor-pointer text-[#01221D] rounded-full font-semibold"
+                className="w-full p-3 bg-[#E8C84A] hover:bg-[#D4B338] cursor-pointer text-[#0B0B0B] rounded-full font-semibold transition-colors"
               >
                 Get the app
               </button>

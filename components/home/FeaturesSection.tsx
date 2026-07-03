@@ -50,7 +50,7 @@ export const DetailsSection = ({
     <div className="flex flex-col gap-2 max-w-[455px]">
       <h4 className="font-medium text-3xl text-[#F5F5F5]">{title}</h4>
       <p className="text-[#E6E7E7] text-lg">{desc}</p>
-      <Link href={link} className="mt-5 text-[#FFDF55] font-semibold">
+      <Link href={link} className="mt-5 w-fit border-b-2 border-[#E8C84A] pb-1 text-[#F1DC83] font-semibold transition-colors hover:text-white">
         Explore All Features
       </Link>
     </div>
@@ -59,14 +59,19 @@ export const DetailsSection = ({
 
 const FeaturesSection = () => {
   return (
-    <section className=" bg-[#01221D] py-16">
-      <MaxWidthWrapper>
+    <section className="relative overflow-hidden bg-[#0B0B0B] py-20">
+      <div className="absolute -left-40 top-40 h-96 w-96 rounded-full bg-[#005A8D]/25 blur-3xl" />
+      <div className="absolute -right-40 bottom-40 h-96 w-96 rounded-full bg-[#6DA9D2]/15 blur-3xl" />
+      <MaxWidthWrapper className="relative z-10">
         <header className="text-center max-w-[598px] mx-auto space-y-2">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.28em] text-[#6DA9D2]">
+            Built for Botswana
+          </p>
           <h4 className="text-[#F5F5F5] text-5xl inter font-semibold">
             Smarter Features for You
           </h4>
           <p className="text-[#CCCFCE] max-w-[30rem] text-lg mx-auto">
-            Everything you need to navigate your Naija life, organized in one
+            Everything you need to navigate life in Botswana, organized in one
             intuitive interface
           </p>
         </header>

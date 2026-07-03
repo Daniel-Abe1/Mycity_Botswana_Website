@@ -7,11 +7,11 @@ const BotswanaPrivacyPolicyPage = () => {
   return (
     <div>
       <MaxWidthWrapper className="mt-12 lg:mt-40 flex max-w-5xl flex-col gap-1 mb-6">
-        <span className="tracking-wide text-xs text-[#57756A]">LEGAL</span>
-        <h1 className="text-[2.5rem] font-black text-[#103729] leading-14">
+        <span className="tracking-wide text-xs text-[#607D8E]">LEGAL</span>
+        <h1 className="text-[2.5rem] font-black text-[#111111] leading-14">
           Privacy Policy - CityApp Africa
         </h1>
-        <span className="text-[#57756A]">Last updated: June 2026</span>
+        <span className="text-[#607D8E]">Last updated: June 2026</span>
       </MaxWidthWrapper>
 
       {/* Content */}
@@ -24,11 +24,11 @@ const BotswanaPrivacyPolicyPage = () => {
           </p>
 
           {/* Table of Contents */}
-          <div className="my-8 p-6 bg-[#F3F7F566] rounded-xl border border-[#E2E9E7]">
-            <h2 className="font-semibold tracking-widest text-[#103729] mb-3 uppercase">
+          <div className="my-8 p-6 bg-[#F1F7FB66] rounded-xl border border-[#DCEAF3]">
+            <h2 className="font-semibold tracking-widest text-[#111111] mb-3 uppercase">
               Table of Contents
             </h2>
-            <ol className="list-decimal list-inside space-y-1 text-[#103729] text-sm grid grid-cols-2 gap-1">
+            <ol className="list-decimal list-inside space-y-1 text-[#111111] text-sm grid grid-cols-2 gap-1">
               <li><a href="#introduction" className="hover:underline">Introduction</a></li>
               <li><a href="#information-collected" className="hover:underline">Information Collected</a></li>
               <li><a href="#purpose-of-processing" className="hover:underline">Purpose of Data Processing</a></li>
@@ -46,7 +46,7 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 1 */}
           <section id="introduction" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">1. Introduction</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">1. Introduction</h2>
             <p className="text-gray-700 leading-relaxed">
               CityApp Africa respects user privacy and processes personal data in accordance with applicable
               data protection laws in the jurisdictions where it operates.
@@ -55,9 +55,9 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 2 */}
           <section id="information-collected" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">2. Information Collected</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">2. Information Collected</h2>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Personal Information</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Personal Information</h3>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700 mb-6">
               <li>Name</li>
               <li>Email address</li>
@@ -65,7 +65,7 @@ const BotswanaPrivacyPolicyPage = () => {
               <li>User account credentials</li>
             </ul>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Device Information</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Device Information</h3>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700 mb-6">
               <li>Device type</li>
               <li>IP address</li>
@@ -73,7 +73,7 @@ const BotswanaPrivacyPolicyPage = () => {
               <li>App usage data</li>
             </ul>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Location Data</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Location Data</h3>
             <p className="text-gray-700 leading-relaxed">
               If enabled, the App may collect location data to show nearby businesses, attractions, events and services.
             </p>
@@ -81,7 +81,7 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 3 */}
           <section id="purpose-of-processing" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">3. Purpose of Data Processing</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">3. Purpose of Data Processing</h2>
             <p className="text-gray-700 leading-relaxed mb-3">Personal data is used to:</p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
               <li>Provide app services</li>
@@ -95,7 +95,7 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 4 */}
           <section id="lawful-basis" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">4. Lawful Basis for Processing</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">4. Lawful Basis for Processing</h2>
             <p className="text-gray-700 leading-relaxed mb-3">Personal data is processed on the basis of:</p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
               <li>User consent</li>
@@ -107,7 +107,7 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 5 */}
           <section id="data-sharing" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">5. Data Sharing</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">5. Data Sharing</h2>
             <p className="text-gray-700 leading-relaxed mb-3">User information may be shared with:</p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
               <li>Technology providers</li>
@@ -120,7 +120,7 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 6 */}
           <section id="data-security" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">6. Data Security</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">6. Data Security</h2>
             <p className="text-gray-700 leading-relaxed mb-3">The App uses:</p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
               <li>Encryption</li>
@@ -133,7 +133,7 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 7 */}
           <section id="user-rights" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">7. User Rights</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">7. User Rights</h2>
             <p className="text-gray-700 leading-relaxed mb-3">Users have the right to:</p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
               <li>Access their data</li>
@@ -146,7 +146,7 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 8 */}
           <section id="data-retention" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">8. Data Retention</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">8. Data Retention</h2>
             <p className="text-gray-700 leading-relaxed">
               Personal data is retained only as long as necessary for operational, contractual,
               regulatory or legal purposes.
@@ -155,10 +155,10 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 9 */}
           <section id="contact" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">9. Contact for Privacy Requests</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">9. Contact for Privacy Requests</h2>
             <p className="text-gray-700 leading-relaxed">
               E-mail:{" "}
-              <a href="mailto:admin@mycityapp.io" className="text-[#103729] underline">
+              <a href="mailto:admin@mycityapp.io" className="text-[#111111] underline">
                 privacy@cityapp.africa
               </a>
             </p>
@@ -166,13 +166,13 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 10 */}
           <section id="data-protection-notice" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">10. Data Protection Notice</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">10. Data Protection Notice</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               This notice informs users how their personal data is handled. The App acts as a Data
               Controller where applicable under relevant data protection laws.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Data Collected</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Data Collected</h3>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700 mb-6">
               <li>Identification information</li>
               <li>Device data</li>
@@ -180,14 +180,14 @@ const BotswanaPrivacyPolicyPage = () => {
               <li>Location data (where enabled)</li>
             </ul>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Protection Measures</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Protection Measures</h3>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700 mb-6">
               <li>Encryption</li>
               <li>Limited internal access</li>
               <li>Security monitoring</li>
             </ul>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Breach Notification</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Breach Notification</h3>
             <p className="text-gray-700 leading-relaxed">
               In the event of a data breach, affected users and regulators will be notified as
               required by applicable law.
@@ -196,12 +196,12 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 11 */}
           <section id="community-guidelines" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">11. Community Guidelines</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">11. Community Guidelines</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               To ensure a respectful environment, users must follow these guidelines.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Users Must Not</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Users Must Not</h3>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700 mb-6">
               <li>Post offensive or discriminatory content</li>
               <li>Spread misinformation</li>
@@ -209,7 +209,7 @@ const BotswanaPrivacyPolicyPage = () => {
               <li>Harass other users</li>
             </ul>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Listings and Reviews</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Listings and Reviews</h3>
             <p className="text-gray-700 leading-relaxed mb-3">
               Users must ensure reviews and listings are:
             </p>
@@ -229,12 +229,12 @@ const BotswanaPrivacyPolicyPage = () => {
 
           {/* Section 12 */}
           <section id="cookie-policy" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">12. Cookie &amp; Analytics Policy</h2>
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">12. Cookie &amp; Analytics Policy</h2>
             <p className="text-gray-700 leading-relaxed mb-4">
               The App may use cookies and analytics technologies.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Purpose</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Purpose</h3>
             <p className="text-gray-700 leading-relaxed mb-3">Cookies help to:</p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700 mb-6">
               <li>Analyze app performance</li>
@@ -242,10 +242,10 @@ const BotswanaPrivacyPolicyPage = () => {
               <li>Improve services</li>
             </ul>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">Types Used</h3>
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">Types Used</h3>
             <div className="overflow-x-auto rounded-xl border border-gray-200 mb-6">
               <table className="w-full text-sm text-gray-700">
-                <thead className="bg-[#103729] text-white">
+                <thead className="bg-[#111111] text-white">
                   <tr>
                     <th className="text-left px-4 py-3 font-medium">Type</th>
                     <th className="text-left px-4 py-3 font-medium">Description</th>

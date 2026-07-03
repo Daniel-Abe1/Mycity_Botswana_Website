@@ -14,21 +14,21 @@ const blogPosts = [
   {
     date: "17 Jan 2026",
     minRead: "3 mins read",
-    title: "Suya, Jollof, and Online Deals: Shopping the Nigeria...",
-    desc: "Whether it’s a late-night suya craving or grabbing fashion from top brands, discover how MyCityApp brings Nigeria’s food and shopping culture right into your pocket.",
+    title: "Suya, Jollof, and Online Deals: Shopping the Botswana...",
+    desc: "Whether it’s a late-night suya craving or grabbing fashion from top brands, discover how MyCityApp Africa brings Botswana’s food and shopping culture right into your pocket.",
     image: "/img/blog.png",
   },
   {
     date: "16 Jan 2026",
     minRead: "3 mins read",
-    title: "MyCityApp 2.0: New Features Coming This Spring",
+    title: "MyCityApp Africa 2.0: New Features Coming This Spring",
     desc: "Master our platform with these pro tips for finding events, booking tickets, and managing your bookings.",
     image: "/img/blog.png",
   },
   {
     date: "15 Jan 2026",
     minRead: "3 mins read",
-    title: "How to Use MyCityApp as a Business Owner",
+    title: "How to Use MyCityApp Africa as a Business Owner",
     desc: "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
     image: "/img/blog.png",
   },
@@ -36,21 +36,21 @@ const blogPosts = [
   {
     date: "17 Jan 2026",
     minRead: "3 mins read",
-    title: "Suya, Jollof, and Online Deals: Shopping the Nigeria...",
-    desc: "Whether it’s a late-night suya craving or grabbing fashion from top brands, discover how MyCityApp brings Nigeria’s food and shopping culture right into your pocket.",
+    title: "Suya, Jollof, and Online Deals: Shopping the Botswana...",
+    desc: "Whether it’s a late-night suya craving or grabbing fashion from top brands, discover how MyCityApp Africa brings Botswana’s food and shopping culture right into your pocket.",
     image: "/img/blog.png",
   },
   {
     date: "16 Jan 2026",
     minRead: "3 mins read",
-    title: "MyCityApp 2.0: New Features Coming This Spring",
+    title: "MyCityApp Africa 2.0: New Features Coming This Spring",
     desc: "Master our platform with these pro tips for finding events, booking tickets, and managing your bookings.",
     image: "/img/blog.png",
   },
   {
     date: "15 Jan 2026",
     minRead: "3 mins read",
-    title: "How to Use MyCityApp as a Business Owner",
+    title: "How to Use MyCityApp Africa as a Business Owner",
     desc: "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
     image: "/img/blog.png",
   },
@@ -60,8 +60,8 @@ const BlogPage = () => {
   return (
     <div className="lg:pt-18">
       <MaxWidthWrapper className="mt-16 lg:mt-32 mb-12 flex flex-col items-center justify-center text-center gap-4">
-        <h5 className="text-3xl md:text-[2.6rem] md:leading-[2.6rem] font-semibold text-[#014239] inter">
-          Stay Updated with MyCityApp
+        <h5 className="text-3xl md:text-[2.6rem] md:leading-[2.6rem] font-semibold text-[#005A8D] inter">
+          Stay Updated with MyCityApp Africa
         </h5>
 
         <p className="md:text-lg max-w-[887px] mb-2">
@@ -113,7 +113,7 @@ const BlogPage = () => {
               {/* Content */}
               <div className="flex flex-col gap-1 pb-5">
                 {/* Row 2 — Meta */}
-                <div className="flex font-semibold gap-1 text-sm text-[#014339]">
+                <div className="flex font-semibold gap-1 text-sm text-[#005A8D]">
                   <span>{blogPosts[0].minRead}</span>•
                   <span>{blogPosts[0].date}</span>
                 </div>
@@ -147,7 +147,7 @@ const BlogPage = () => {
               {/* Content */}
               <div className="flex flex-col gap-1 pb-5">
                 {/* Row 2 — Meta */}
-                <div className="flex font-semibold gap-1 text-sm text-[#014339]">
+                <div className="flex font-semibold gap-1 text-sm text-[#005A8D]">
                   <span>{blogPosts[0].minRead}</span>•
                   <span>{blogPosts[0].date}</span>
                 </div>

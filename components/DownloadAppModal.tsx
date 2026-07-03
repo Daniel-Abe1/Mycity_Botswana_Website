@@ -15,14 +15,14 @@ const DownloadAppModal = () => {
   return (
     <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center">
       <div className="bg-white rounded-lg p-6 relative text-center w-[90vw] max-w-[550px]">
-        <h2 className="text-2xl font-bold mb-2 text-[#014239]">
-          Download MyCityApp for free
+        <h2 className="text-2xl font-bold mb-2 text-[#005A8D]">
+          Download MyCityApp Africa for free
         </h2>
         <p className="mb-2 text-[#848A8E]">For iOS & Android</p>
 
         <div className="relative w-full aspect-[2.88/1]">
           <Image
-            alt="Download MyCityApp"
+            alt="Download MyCityApp Africa"
             src={"/img/download-app-banner.png"}
             fill
             className="object-cover"
@@ -32,7 +32,7 @@ const DownloadAppModal = () => {
         <div className="grid md:grid-cols-2 gap-4 mt-2 mb-8 px-7">
           {/* App Store */}
           <a
-            href="https://apps.apple.com/us/app/mycityapp-ng/id6755674987"
+            href="https://apps.apple.com/us/app/mycityapp-africa/id6761128523"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full aspect-[4.85/1] relative block"
@@ -47,7 +47,7 @@ const DownloadAppModal = () => {
 
           {/* Play Store */}
           <a
-            href="https://play.google.com/store/apps/details?id=ng.mtn.mycityapp.cities.android"
+            href="https://play.google.com/store/apps/details?id=ng.mtn.mycityapp.bw"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full aspect-[4.85/1] relative block"

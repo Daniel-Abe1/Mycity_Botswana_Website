@@ -1,8 +1,8 @@
 import React from "react";
-import StatesPage from "./StatesPage";
+import DistrictsPage from "./DistrictsPage";
 
 const page = () => {
-  return <StatesPage />;
+  return <DistrictsPage />;
 };
 
 export default page;

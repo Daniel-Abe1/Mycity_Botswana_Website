@@ -49,7 +49,7 @@ export const CityCard: React.FC<CardProps> = ({
         className="w-full object-cover rounded-md mb-3 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
       />
 
-      <div className="absolute flex items-end z-20 p-8 bg-black/50 h-full w-full text-white">
+      <div className="absolute flex items-end z-20 p-8 bg-gradient-to-t from-black/85 via-black/20 to-transparent h-full w-full text-white">
         <h6 className="font-semibold text-4xl group-hover:hidden">{title}</h6>
         <h6 className="font-semibold text-2xl hidden group-hover:flex gap-2 items-center">
           {description}
@@ -63,7 +63,7 @@ export const CityCard: React.FC<CardProps> = ({
     <>
       <div
         onClick={handleClick}
-        className="relative w-full overflow-hidden aspect-[1.22/1] rounded-2xl cursor-pointer group block transition-transform duration-300 ease-out hover:-translate-y-2"
+        className="relative w-full overflow-hidden aspect-[1.22/1] rounded-2xl border border-white/70 shadow-[0_18px_40px_rgba(0,63,99,0.15)] cursor-pointer group block transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-[0_24px_55px_rgba(0,63,99,0.25)]"
       >
         {content}
       </div>
@@ -78,8 +78,8 @@ export const CityCard: React.FC<CardProps> = ({
             className="bg-white flex flex-col items-center rounded-lg p-10 relative text-center w-[90vw] max-w-[512px]"
             onClick={(e) => e.stopPropagation()}
           >
-            <HiMapPin className="text-[#FFDF55]" size={90} />
-            <h2 className="text-2xl md:text-4xl font-bold mb-2 text-[#014239] mt-3">
+            <HiMapPin className="text-[#6DA9D2]" size={90} />
+            <h2 className="text-2xl md:text-4xl font-bold mb-2 text-[#005A8D] mt-3">
               We&apos;re Coming Soon to Your City
             </h2>
             <p className="mb-4 text-[#848A8E]">
@@ -88,22 +88,32 @@ export const CityCard: React.FC<CardProps> = ({
             </p>
 
             <div className="grid grid-cols-2 gap-4 mt-5 w-full">
-              <button className="w-full aspect-[4.85/1] relative">
+              <a
+                href="https://apps.apple.com/us/app/mycityapp-africa/id6761128523"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full aspect-[4.85/1] relative"
+              >
                 <Image
                   alt="download from app store"
                   src={"/img/app-store-button.svg"}
                   fill
                   className="object-cover"
                 />
-              </button>
-              <button className="w-full aspect-[4.85/1] relative">
+              </a>
+              <a
+                href="https://play.google.com/store/apps/details?id=ng.mtn.mycityapp.bw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full aspect-[4.85/1] relative"
+              >
                 <Image
                   alt="download from play store"
                   src={"/img/play-store-button.svg"}
                   fill
                   className="object-cover"
                 />
-              </button>
+              </a>
             </div>
           </div>
         </div>

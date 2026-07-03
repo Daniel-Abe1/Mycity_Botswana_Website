@@ -22,7 +22,7 @@ export async function GET(request: NextRequest) {
       "https://maps.googleapis.com/maps/api/place/autocomplete/json"
     );
     url.searchParams.set("input", input);
-    url.searchParams.set("components", "country:ng");
+    url.searchParams.set("components", "country:bw");
     url.searchParams.set("key", GOOGLE_MAPS_API_KEY);
 
     const response = await fetch(url.toString());

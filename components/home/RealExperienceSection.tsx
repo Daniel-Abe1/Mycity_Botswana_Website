@@ -24,7 +24,7 @@ const RealExperienceSection = () => {
   return (
     <div className="py-20">
       <MaxWidthWrapper>
-        <h4 className="text-center inter text-4xl mb-12 font-semibold text-[#014239]">
+        <h4 className="text-center inter text-4xl mb-12 font-semibold text-[#005A8D]">
           Real Experience from Real Users
         </h4>
 

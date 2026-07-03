@@ -20,20 +20,18 @@ const Hero = () => {
       />
 
       {/* Overlay and content */}
-      <section className="relative h-full bg-[#01221D99] flex flex-col gap-3 justify-center items-center text-white text-center px-4">
-        <p className="text-base p-2 mb-1 font-semibold rounded-full bg-[#384E4B] -mt-4">
-          One app, every Nigerian city, zero stress.
+      <section className="relative h-full bg-[#0B0B0B99] flex flex-col gap-3 justify-center items-center text-white text-center px-4">
+        <p className="text-base p-2 mb-1 font-semibold rounded-full bg-[#005A8D] -mt-4">
+          One app, every Botswana city, zero stress.
         </p>
 
-        <h2 className="text-5xl md:text-[4.7rem] tracking-normal font-inter font-bold">
-          The app that knows Nigeria
+        <h2 className="text-5xl md:text-[4.4rem] tracking-normal font-inter font-bold">
+          The app that knows Botswana
         </h2>
 
         <p className="max-w-2xl mx-auto mt-2 mb-4 text-xl">
           From events and news to traffic, emergencies, jobs, and bills,
-          MyCityApp
-          <br />
-          connects you to everything that matters in your city.
+          MyCityApp Africa connects you to everything that matters in your city.
         </p>
 
         <article className="flex flex-col md:flex-row gap-4 items-center mt-4 w-full justify-center">

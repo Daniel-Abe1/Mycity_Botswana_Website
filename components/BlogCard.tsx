@@ -36,7 +36,7 @@ const BlogCard: React.FC<BlogCardProps> = ({
       {/* Content */}
       <div className="py-5 flex flex-col gap-3">
         {/* Row 2 — Meta */}
-        <div className="flex font-semibold gap-1 text-sm text-[#014339]">
+        <div className="flex font-semibold gap-1 text-sm text-[#005A8D]">
           <span>{minRead} read</span>•<span>{date}</span>
         </div>
 

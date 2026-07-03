@@ -27,7 +27,7 @@ interface Props {
 
 
 
-const StatesDiscovery: React.FC<Props> = ({description, destinations}) => {
+const DistrictsDiscovery: React.FC<Props> = ({description, destinations}) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [swiperInstance, setSwiperInstance] = useState<SwiperType | null>(null);
 
@@ -35,9 +35,9 @@ const StatesDiscovery: React.FC<Props> = ({description, destinations}) => {
     <MaxWidthWrapper className="px-6 py-12">
       {/* Header Section */}
       <header className="text-center mb-12">
-        <div className="w-12 h-1 bg-[#FFDF55] mx-auto mb-4" />
+        <div className="w-12 h-1 bg-[#E8C84A] mx-auto mb-4" />
         <h1 className="text-4xl font-semibold mb-3">Discover What Awaits</h1>
-        <p className="text-[#628478] max-w-xl mx-auto leading-relaxed">
+        <p className="text-[#7196AD] max-w-xl mx-auto leading-relaxed">
          {description} 
          </p>
       </header>
@@ -64,7 +64,7 @@ const StatesDiscovery: React.FC<Props> = ({description, destinations}) => {
                   fill
                 />
                 {/* Decorative Icon Overlay */}
-                <div className="absolute top-6 left-6 bg-white p-2.5 rounded-lg shadow-md text-[#17644D]">
+                <div className="absolute top-6 left-6 bg-white p-2.5 rounded-lg shadow-md text-[#176F9C]">
                    <Landmark />
                 </div>
               </div>
@@ -76,15 +76,15 @@ const StatesDiscovery: React.FC<Props> = ({description, destinations}) => {
       {/* Content Section (Changes based on Swiper Index) */}
       <div className="mt-10 transition-all duration-500 ease-in-out lg:w-1/2">
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-xs font-bold text-[#FFDF55]">{destinations[activeIndex].id}</span>
-          <div className="w-12 h-[4px] bg-[#FFDF55]" />
+          <span className="text-xs font-bold text-[#B99B20]">{destinations[activeIndex].id}</span>
+          <div className="w-12 h-[4px] bg-[#E8C84A]" />
         </div>
         
         <h2 className="text-3xl font-semibold mb-4">
           {destinations[activeIndex].title}
         </h2>
         
-        <p className="text-[#56827B] text-sm md:text-base leading-relaxed max-w-2xl min-h-12  line-clamp-3">
+        <p className="text-[#5D8EAD] text-sm md:text-base leading-relaxed max-w-2xl min-h-12  line-clamp-3">
           {destinations[activeIndex].description}
         </p>
 
@@ -94,8 +94,8 @@ const StatesDiscovery: React.FC<Props> = ({description, destinations}) => {
             <div 
               key={index}
               onClick={() => swiperInstance?.slideTo(index)}
-              className={`h-1 transition-all duration-300 cursor-pointer hover:bg-[#FFDF55]/70 ${
-                index === activeIndex ? 'w-16 bg-[#FFDF55]' : 'w-16 bg-gray-200'
+              className={`h-1 transition-all duration-300 cursor-pointer hover:bg-[#E8C84A]/70 ${
+                index === activeIndex ? 'w-16 bg-[#E8C84A]' : 'w-16 bg-gray-200'
               }`}
             />
           ))}
@@ -105,4 +105,4 @@ const StatesDiscovery: React.FC<Props> = ({description, destinations}) => {
   );
 };
 
-export default StatesDiscovery;
+export default DistrictsDiscovery;

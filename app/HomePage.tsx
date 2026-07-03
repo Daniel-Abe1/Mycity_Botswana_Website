@@ -23,7 +23,7 @@ const HomePage = () => {
       <BlogPosts />
       <section className="mb-24 lg:mt-26 mt-14">
         <header className="mb-1 text-center space-y-4">
-          <h4 className="font-semibold text-3xl md:text-5xl text-[#014339]">
+          <h4 className="font-semibold text-3xl md:text-5xl text-[#005A8D]">
             Frequently Asked Questions
           </h4>
           <p className="text-[#888A89] text-lg">
@@ -35,7 +35,7 @@ const HomePage = () => {
         <div className="flex justify-center">
           <button
             onClick={() => router.push("/faqs")}
-            className="p-3 rounded-full border min-w-[150px] font-semibold border-[#153725] text-[#153725]"
+            className="p-3 rounded-full border min-w-[150px] font-semibold border-[#18242C] text-[#18242C]"
           >
             View All FAQs
           </button>

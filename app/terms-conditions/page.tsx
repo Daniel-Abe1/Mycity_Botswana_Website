@@ -4,7 +4,7 @@ import TermsConditionsPage from "./TermsConditionsPage";
 export const metadata: Metadata = {
   title: "Terms & Conditions",
   description:
-    "Read the terms and conditions governing your use of the MyCityApp platform and services.",
+    "Read the terms and conditions governing your use of the MyCityApp Africa platform and services.",
 };
 
 export default function Page() {

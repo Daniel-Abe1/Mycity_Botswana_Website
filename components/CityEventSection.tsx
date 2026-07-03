@@ -75,7 +75,7 @@ const CityEventSection = ({ state = "" }: { state?: string }) => {
       <div className="whitespace-nowrap flex gap-2 items-center overflow-x-auto">
         {isLoadingCategories ? (
           <div className="flex justify-center items-center py-4 w-full">
-            <div className="w-8 h-8 border-4 border-[#014339] border-t-transparent rounded-full animate-spin" />
+            <div className="w-8 h-8 border-4 border-[#005A8D] border-t-transparent rounded-full animate-spin" />
           </div>
         ) : categoryData?.categories && categoryData.categories.length > 0 ? (
           categoryData.categories.map((item) => (
@@ -84,7 +84,7 @@ const CityEventSection = ({ state = "" }: { state?: string }) => {
               onClick={() => handleTabChange(item.name)}
               className={`p-2 px-3 font-medium min-w-[150px] cursor-pointer capitalize rounded-lg text-sm ${
                 item.name === active
-                  ? "bg-[#014339] text-white"
+                  ? "bg-[#005A8D] text-white"
                   : "border text-[#1E1955] border-[#F2F2F2] "
               }`}
             >
@@ -97,7 +97,7 @@ const CityEventSection = ({ state = "" }: { state?: string }) => {
       </div>
 
       <div className="my-10 flex flex-col gap-3">
-        <h3 className="md:text-2xl text-[#014239] font-semibold inter mb-4 capitalize">
+        <h3 className="md:text-2xl text-[#005A8D] font-semibold inter mb-4 capitalize">
           {categoryData?.categories.find((c) => c.name === active)?.name ||
             "Discoveries"}
         </h3>
@@ -105,7 +105,7 @@ const CityEventSection = ({ state = "" }: { state?: string }) => {
         <section className="grid md:grid-cols-3 gap-3">
           {isLoadingDiscoveries && (
             <div className="col-span-full flex justify-center items-center py-20">
-              <div className="w-12 h-12 border-4 border-[#014339] border-t-transparent rounded-full animate-spin" />
+              <div className="w-12 h-12 border-4 border-[#005A8D] border-t-transparent rounded-full animate-spin" />
             </div>
           )}
 
@@ -154,7 +154,7 @@ const CityEventSection = ({ state = "" }: { state?: string }) => {
                   <Button
                     variant="outline"
                     onClick={handleLoadMore}
-                    className="my-12 h-12 w-full max-w-[245px] cursor-pointer border border-[#014339] font-semibold text-[#014339]"
+                    className="my-12 h-12 w-full max-w-[245px] cursor-pointer border border-[#005A8D] font-semibold text-[#005A8D]"
                   >
                     Load More Events
                   </Button>

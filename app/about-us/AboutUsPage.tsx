@@ -11,7 +11,7 @@ const AboutUsPage = () => {
         <article className="bg-[#1E1E1E80] relative z-20 h-full w-full flex gap-4 flex-col justify-center items-center text-center">
           <h5 className="font-semibold inter text-5xl text-white">About Us</h5>
 
-          <Button className="gap-1 font-semibold inter bg-[#FFDF55] text-xl h-14 px-6 mt-4">
+          <Button className="gap-1 font-semibold inter bg-[#E8C84A] hover:bg-[#D4B338] text-xl h-14 px-6 mt-4 shadow-[0_10px_28px_rgba(232,200,74,0.24)]">
             Learn More
           </Button>
         </article>
@@ -36,17 +36,17 @@ const AboutUsPage = () => {
       <MaxWidthWrapper className="grid md:grid-cols-2 gap-10 md:gap-5 my-10 md:my-20">
         <article className="flex flex-col gap-4">
           <h5 className="inter text-3xl font-bold text-[#101828]">
-            Why Choose MyCityApp?
+            Why Choose MyCityApp Africa?
           </h5>
-          <p className="text-2xl text-[#014339] font-bold">
-            We have helped 1M+ Resident Nigerians and Over 200+ Visiting Diaspora based Nigerians and Tourists explore Nigeria. 
+          <p className="text-2xl text-[#005A8D] font-bold">
+            We have helped 1M+ Resident Batswana and Over 200+ Visiting Diaspora based Batswana and Tourists explore Botswana. 
           </p>
         </article>
 
         <article>
           <p>
-            Nigerian cities are more than just they appear in maps. With
-            MyCityApp, you don’t just find places, you feel them. From real-time
+            Botswana cities are more than just they appear in maps. With
+            MyCityApp Africa, you don’t just find places, you feel them. From real-time
             navigation that gets you where you’re going, to curated guides that
             help you uncover, to events and experiences you’d otherwise miss,
             transportation services, shopping, access to government services and
@@ -54,7 +54,7 @@ const AboutUsPage = () => {
             <br />
             <br />
             Whether you’re new in town or a local looking for something fresh,
-            MyCityApp is the friend who knows exactly where to take you.
+            MyCityApp Africa is the friend who knows exactly where to take you.
           </p>
         </article>
       </MaxWidthWrapper>
@@ -80,9 +80,9 @@ const AboutUsPage = () => {
         <MaxWidthWrapper className="grid md:grid-cols-2 gap-10 md:gap-5">
           <article className="flex flex-col gap-2">
             <div className="flex gap-4">
-              <span className="bg-[#014339] h-5 w-5 rounded-full"></span>
-              <span className="bg-[#014339] h-5 w-5 rounded-full"></span>
-              <span className="bg-[#FFEFAA] h-5 w-5 rounded-full"></span>
+              <span className="bg-[#005A8D] h-5 w-5 rounded-full"></span>
+              <span className="bg-[#005A8D] h-5 w-5 rounded-full"></span>
+              <span className="bg-[#D6E9F5] h-5 w-5 rounded-full"></span>
             </div>
             <p className="font-light inter text-black tracking-wider mt-8 text-sm">
               OUR MISSION
@@ -91,7 +91,7 @@ const AboutUsPage = () => {
               Our mission is to bring every of the corner to your palms
             </h4>
             <p className="text-black">
-              At MyCityApp, we are on a mission to make every city in Nigeria
+              At MyCityApp Africa, we are on a mission to make every city in Botswana
               feel like home,  whether you have lived there for years or you are
               just a tourist visiting for a short stay. We bring every corner of
               the city to your palms, helping you navigate with ease, discover
@@ -110,7 +110,7 @@ const AboutUsPage = () => {
           </article>
         </MaxWidthWrapper>
 
-        <section className="bg-[#01221D] py-16 ">
+        <section className="bg-[#0B0B0B] py-16 ">
           <MaxWidthWrapper className=" grid md:grid-cols-[1fr_500px] gap-10 relative z-20">
             <article className="flex flex-col text-white gap-5 max-w-[572px]">
               <p className="font-light inter tracking-wider text-sm">
@@ -120,7 +120,7 @@ const AboutUsPage = () => {
                 Our vision is to be your partner for an enjoyable experience
               </h4>
               <p className="">
-                To be Nigeria’s most trusted city companion, turning every
+                To be Botswana’s most trusted city companion, turning every
                 journey into an experience, every street into a story, and every
                 city into a place you truly know.{" "}
               </p>

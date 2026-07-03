@@ -310,14 +310,14 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
   return (
     <div className="px-6 pt-10 pb-24 md:px-10 md:pb-10">
       <div className="text-center mb-10">
-        <span className="p-1 px-3 bg-[#FFEFAA] rounded-xl text-xs font-medium text-[#014339] inline-block mb-5">
+        <span className="p-1 px-3 bg-[#D6E9F5] rounded-xl text-xs font-medium text-[#005A8D] inline-block mb-5">
           EMBER TO REMEMBER 2026
         </span>
-        <h2 className="text-3xl font-bold text-[#014239] inter mb-5">
+        <h2 className="text-3xl font-bold text-[#005A8D] inter mb-5">
           Event Listing Form
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto text-sm">
-          Want your event featured on MyCityApp and included in the Ember to Remember campaign?
+          Want your event featured on MyCityApp Africa and included in the Ember to Remember campaign?
           Complete the form below.
         </p>
       </div>
@@ -326,7 +326,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
           {/* Event Details */}
           <section className="space-y-5">
-            <h3 className="text-xl font-semibold text-[#014239] inter border-b border-[#E2E9E7] pb-2">
+            <h3 className="text-xl font-semibold text-[#005A8D] inter border-b border-[#DCEAF3] pb-2">
               Event Details
             </h3>
 
@@ -455,7 +455,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
 
           {/* About the Event */}
           <section className="space-y-4 mt-10">
-            <h3 className="text-xl font-semibold text-[#014239] inter border-b border-[#E2E9E7] pb-2">
+            <h3 className="text-xl font-semibold text-[#005A8D] inter border-b border-[#DCEAF3] pb-2">
               About the Event
             </h3>
             <FormTextArea
@@ -469,7 +469,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
 
           {/* Organizer Information */}
           <section className="space-y-4 mt-10">
-            <h3 className="text-xl font-semibold text-[#014239] inter border-b border-[#E2E9E7] pb-2">
+            <h3 className="text-xl font-semibold text-[#005A8D] inter border-b border-[#DCEAF3] pb-2">
               Organizer Information
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 gap-y-6">
@@ -504,7 +504,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
 
           {/* Ticket Information */}
           <section className="space-y-4 mt-10">
-            <h3 className="text-xl font-semibold text-[#014239] inter border-b border-[#E2E9E7] pb-2">
+            <h3 className="text-xl font-semibold text-[#005A8D] inter border-b border-[#DCEAF3] pb-2">
               Ticket Information
             </h3>
             <FormDropdown
@@ -519,7 +519,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
 
           {/* Promotional Materials */}
           <section className="space-y-4 mt-10">
-            <h3 className="text-xl font-semibold text-[#014239] inter border-b border-[#E2E9E7] pb-2">
+            <h3 className="text-xl font-semibold text-[#005A8D] inter border-b border-[#DCEAF3] pb-2">
               Promotional Materials
             </h3>
 
@@ -531,7 +531,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
               </label>
               <div
                 onClick={() => flyerInputRef.current?.click()}
-                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#014339] transition-colors"
+                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#005A8D] transition-colors"
               >
                 <Upload size={24} className="mx-auto text-gray-400 mb-2" />
                 <p className="text-sm text-gray-500">Click to upload event flyer</p>
@@ -585,7 +585,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
               </label>
               <div
                 onClick={() => imageInputRef.current?.click()}
-                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#014339] transition-colors"
+                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#005A8D] transition-colors"
               >
                 <Upload size={24} className="mx-auto text-gray-400 mb-2" />
                 <p className="text-sm text-gray-500">Click to upload event images</p>
@@ -632,7 +632,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
               </label>
               <div
                 onClick={() => parkingInputRef.current?.click()}
-                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#014339] transition-colors"
+                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#005A8D] transition-colors"
               >
                 <Upload size={24} className="mx-auto text-gray-400 mb-2" />
                 <p className="text-sm text-gray-500">Click to upload parking advisory images</p>
@@ -679,7 +679,7 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
               </label>
               <div
                 onClick={() => fashionInputRef.current?.click()}
-                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#014339] transition-colors"
+                className="border-2 border-dashed border-[#CCCFCE] rounded-lg p-6 text-center cursor-pointer hover:border-[#005A8D] transition-colors"
               >
                 <Upload size={24} className="mx-auto text-gray-400 mb-2" />
                 <p className="text-sm text-gray-500">Click to upload fashion advisory images</p>
@@ -726,11 +726,11 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
                 type="checkbox"
                 id="confirmation"
                 {...methods.register("confirmation")}
-                className="mt-1 h-4 w-4 rounded border-gray-300 accent-[#014339] cursor-pointer"
+                className="mt-1 h-4 w-4 rounded border-gray-300 accent-[#005A8D] cursor-pointer"
               />
               <label htmlFor="confirmation" className="text-sm text-gray-700 cursor-pointer">
-                I confirm that the information provided is accurate and I authorize MyCityApp
-                Nigeria to promote this event as part of the Ember to Remember campaign.
+                I confirm that the information provided is accurate and I authorize MyCityApp Africa
+                Botswana to promote this event as part of the Ember to Remember campaign.
               </label>
             </div>
             {errors.confirmation && (
@@ -744,14 +744,14 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#014339] text-white font-semibold py-3.5 rounded-full hover:bg-[#012d26] transition-colors disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2 mt-10"
+            className="w-full bg-[#005A8D] text-white font-semibold py-3.5 rounded-full hover:bg-[#003F63] transition-colors disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2 mt-10"
           >
             {isSubmitting && <Loader2 size={18} className="animate-spin" />}
             {isSubmitting ? "Submitting..." : "Submit Event"}
           </button>
 
           <p className="text-center text-sm text-gray-500">
-            Submit your event and let Nigeria discover it.
+            Submit your event and let Botswana discover it.
           </p>
         </form>
       </FormProvider>

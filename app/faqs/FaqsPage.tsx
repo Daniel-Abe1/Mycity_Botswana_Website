@@ -12,7 +12,7 @@ import FaqSection from "@/components/FaqSection";
 const FaqsPage = () => {
   return (
     <div>
-      <section className="py-10 relative h-full md:h-[70dvh] bg-[#01221D] flex flex-col gap-5 justify-center text-center items-center">
+      <section className="py-10 relative h-full md:h-[70dvh] bg-[#0B0B0B] flex flex-col gap-5 justify-center text-center items-center">
         <h4 className="text-3xl max-w-[250px] md:max-w-none md:text-4xl text-white font-semibold inter">
           Frequently Asked Questions
         </h4>

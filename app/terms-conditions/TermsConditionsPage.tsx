@@ -7,11 +7,11 @@ const TermsConditionsPage = () => {
   return (
     <div>
       <MaxWidthWrapper className="lg:mt-40 max-w-5xl mt-12 flex flex-col gap-1 mb-6">
-        <span className="tracking-wide text-xs text-[#57756A]">LEGAL</span>
-        <h1 className="text-[2.5rem] font-black text-[#103729] leading-14">
+        <span className="tracking-wide text-xs text-[#607D8E]">LEGAL</span>
+        <h1 className="text-[2.5rem] font-black text-[#111111] leading-14">
           Terms &amp; Conditions
         </h1>
-        <span className="text-[#57756A]">Last updated: April 2026</span>
+        <span className="text-[#607D8E]">Last updated: April 2026</span>
       </MaxWidthWrapper>
 
       {/* Content */}
@@ -19,23 +19,23 @@ const TermsConditionsPage = () => {
         <div className="pb-16 prose prose-neutral">
           <p className="text-gray-700 leading-relaxed">
             This page contains the terms and conditions of service governing
-            your use of the MyCityApp Limited&apos;s (&quot;MyCityApp&quot;,
+            your use of the MyCityApp Africa Limited&apos;s (&quot;MyCityApp Africa&quot;,
             &quot;we&quot; or &quot;our&quot;) Application (the &quot;App&quot;
             or &quot;Platform&quot;). Please carefully review these terms and
-            conditions before using the MyCityApp service.
+            conditions before using the MyCityApp Africa service.
           </p>
           <p className="text-gray-700 leading-relaxed mt-4">
-            MyCityApp offers a dynamic platform designed to enhance urban living
+            MyCityApp Africa offers a dynamic platform designed to enhance urban living
             in Lagos, offering mapping, GPS navigation, and user-generated
             reviews and recommendations for hotels, restaurants, attractions,
             and experiences curated by a vibrant community of users.
-            Additionally, MyCityApp enables seamless transactions for
+            Additionally, MyCityApp Africa enables seamless transactions for
             governmental payments, including fines, tolls, and levies.
           </p>
           <p className="text-gray-700 leading-relaxed mt-4">
             By clicking a registration or new account submission button, or by
-            otherwise using MyCityApp&apos;s websites, the Platform, networks,
-            mobile applications, or other services provided by MyCityApp
+            otherwise using MyCityApp Africa&apos;s websites, the Platform, networks,
+            mobile applications, or other services provided by MyCityApp Africa
             (collectively, the &quot;Services&quot;), you agree to be bound by
             the following platform use agreement as updated from time to time.
           </p>
@@ -47,11 +47,11 @@ const TermsConditionsPage = () => {
           </p>
 
           {/* Table of Contents */}
-          <div className="my-8 p-6 bg-[#F3F7F566] rounded-xl border border-[#E2E9E7]">
-            <h2 className="font-semibold tracking-widest text-[#103729] mb-3 uppercase">
+          <div className="my-8 p-6 bg-[#F1F7FB66] rounded-xl border border-[#DCEAF3]">
+            <h2 className="font-semibold tracking-widest text-[#111111] mb-3 uppercase">
               Table of Contents
             </h2>
-            <ol className="list-decimal list-inside space-y-1 text-[#103729] text-sm grid grid-cols-2 gap-1">
+            <ol className="list-decimal list-inside space-y-1 text-[#111111] text-sm grid grid-cols-2 gap-1">
               <li>
                 <a href="#registration" className="hover:underline">
                   Registration
@@ -79,7 +79,7 @@ const TermsConditionsPage = () => {
               </li>
               <li>
                 <a href="#no-warranties" className="hover:underline">
-                  No warranties by MyCityApp
+                  No warranties by MyCityApp Africa
                 </a>
               </li>
               <li>
@@ -127,13 +127,13 @@ const TermsConditionsPage = () => {
 
           {/* Section 1 */}
           <section id="registration" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               1. Registration
             </h2>
             <p className="text-gray-700 leading-relaxed">
               As a condition of your use of the Services, you will be required
               to register and create an account. You must complete the
-              registration process by providing MyCityApp with current,
+              registration process by providing MyCityApp Africa with current,
               accurate, and complete information as may be required in the
               registration form. Such information may include certain personal
               information, such as your name and email address, all of which
@@ -148,7 +148,7 @@ const TermsConditionsPage = () => {
 
           {/* Section 2 */}
           <section id="use-of-application" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               2. Use of the Application
             </h2>
 
@@ -181,7 +181,7 @@ const TermsConditionsPage = () => {
             <p className="text-gray-700 leading-relaxed mb-4">
               <span className="font-semibold">2.3</span> You agree to exercise
               caution and adhere to all applicable traffic laws and regulations
-              when using the App&apos;s navigation features. MyCityApp is not
+              when using the App&apos;s navigation features. MyCityApp Africa is not
               liable for any accidents, injuries, or damages resulting from your
               misuse. You agree not to interact with the App while operating a
               vehicle unless using hands-free functionality.
@@ -203,7 +203,7 @@ const TermsConditionsPage = () => {
               </li>
               <li>
                 Use the Platform or App in any way that is unlawful, or harms
-                MyCityApp, its service providers, suppliers, or any other user;
+                MyCityApp Africa, its service providers, suppliers, or any other user;
               </li>
               <li>
                 Distribute or post spam, chain letters, pyramid schemes, or
@@ -224,7 +224,7 @@ const TermsConditionsPage = () => {
                 Conduct automated queries (scraping, spiders, robots, crawlers,
                 captcha bypassing);
               </li>
-              <li>Use any of MyCityApp&apos;s trademarks without approval;</li>
+              <li>Use any of MyCityApp Africa&apos;s trademarks without approval;</li>
               <li>
                 Access or use any of the Platform or App to develop competitive
                 products or services; or
@@ -237,19 +237,19 @@ const TermsConditionsPage = () => {
 
             <p className="text-gray-700 leading-relaxed mb-4">
               <span className="font-semibold">2.5</span> If you violate any of
-              the rules contained herein, MyCityApp may immediately suspend,
+              the rules contained herein, MyCityApp Africa may immediately suspend,
               revoke, or restrict your account (and any related accounts).
-              MyCityApp shall notify you of the suspension and revocation within
+              MyCityApp Africa shall notify you of the suspension and revocation within
               twenty-four (24) hours of action taken.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
               <span className="font-semibold">2.6</span> You shall be solely
               responsible for indemnifying, defending, and holding harmless
-              MyCityApp for any claims or liability arising from any
+              MyCityApp Africa for any claims or liability arising from any
               misrepresentations uploaded or posted by you on your account.{" "}
               <span className="uppercase">
-                MyCityApp hereby disclaims all warranties, whether express or
+                MyCityApp Africa hereby disclaims all warranties, whether express or
                 implied, including the implied warranties or conditions of
                 merchantability and fitness for a particular purpose.
               </span>
@@ -258,7 +258,7 @@ const TermsConditionsPage = () => {
 
           {/* Section 3 */}
           <section id="third-party" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               3. Third Party Linked Services
             </h2>
 
@@ -267,7 +267,7 @@ const TermsConditionsPage = () => {
               includes links to third-party products, services, and websites, as
               well as materials provided by third parties (each, a
               &quot;Third-Party Provider&quot;) which are not under
-              MyCityApp&apos;s control.
+              MyCityApp Africa&apos;s control.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -281,7 +281,7 @@ const TermsConditionsPage = () => {
 
             <p className="text-gray-700 leading-relaxed mb-4">
               <span className="font-semibold">3.3</span> By using a tool
-              provided by a Third-Party Provider, you agree that MyCityApp may
+              provided by a Third-Party Provider, you agree that MyCityApp Africa may
               transfer information to the applicable third parties as may be
               necessary to enable you to use the tool.
             </p>
@@ -293,7 +293,7 @@ const TermsConditionsPage = () => {
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              <span className="font-semibold">3.5</span> MyCityApp is not
+              <span className="font-semibold">3.5</span> MyCityApp Africa is not
               responsible for any damages or costs arising out of or connected
               with your dealings with these Third-Party Providers.
             </p>
@@ -301,28 +301,28 @@ const TermsConditionsPage = () => {
 
           {/* Section 4 */}
           <section id="intellectual-property" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               4. Intellectual Property
             </h2>
             <p className="text-gray-700 leading-relaxed">
               All intellectual property rights in the Platform or App and all
               content provided through the Services (including text, graphics,
               logos, icons, images, audio, video, and software) are owned by or
-              licensed to MyCityApp and are protected by applicable intellectual
+              licensed to MyCityApp Africa and are protected by applicable intellectual
               property laws. Except as expressly permitted in these Terms, you
               may not use, reproduce, or distribute any such content without
-              MyCityApp&apos;s prior written consent.
+              MyCityApp Africa&apos;s prior written consent.
             </p>
           </section>
 
           {/* Section 5 */}
           <section id="indemnification" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               5. Indemnification
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">
               <span className="font-semibold">5.1</span> You agree to indemnify,
-              defend, and hold harmless MyCityApp from any and all claims and
+              defend, and hold harmless MyCityApp Africa from any and all claims and
               demands made by any third party due to or arising out of:
             </p>
             <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
@@ -339,12 +339,12 @@ const TermsConditionsPage = () => {
 
           {/* Section 6 */}
           <section id="no-warranties" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
-              6. No Warranties by MyCityApp
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
+              6. No Warranties by MyCityApp Africa
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-3">
-              <span className="font-semibold">6.1</span> MyCityApp provides the
+              <span className="font-semibold">6.1</span> MyCityApp Africa provides the
               Platform and App on an &quot;as is&quot; and &quot;as
               available&quot; basis and disclaims, to the maximum extent
               permitted by law, all warranties and conditions, whether express
@@ -369,12 +369,12 @@ const TermsConditionsPage = () => {
               <span className="font-semibold">6.2</span> No advice or
               information, whether oral or written, obtained by you through the
               Platform or App will create any warranty regarding any
-              MyCityApp-affiliated entity or the Platform or App that is not
+              MyCityApp Africa-affiliated entity or the Platform or App that is not
               expressly stated in these Terms.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              <span className="font-semibold">6.3</span> MyCityApp will not be
+              <span className="font-semibold">6.3</span> MyCityApp Africa will not be
               liable for any delay or failure to perform its obligations under
               these Terms to the extent that the delay or failure is caused by
               events outside its reasonable control.
@@ -383,26 +383,26 @@ const TermsConditionsPage = () => {
 
           {/* Section 7 */}
           <section id="limitation-of-liability" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               7. Limitation of Liability
             </h2>
             <p className="text-gray-700 leading-relaxed">
               <span className="font-semibold">7.1</span> In no event will
-              MyCityApp or any of its affiliates be liable for any indirect,
+              MyCityApp Africa or any of its affiliates be liable for any indirect,
               consequential, special, incidental, or punitive damages (including
               damages for loss of profits, goodwill, or any other intangible
               loss) arising out of, based on, or resulting from these Terms or
               your use or access, or inability to use or access, the Platform or
               App or any materials on the Platform, whether based on (a) breach
               of contract, (b) breach of warranty, (c) negligence, or (d) any
-              other cause of action, even if MyCityApp has been advised of the
+              other cause of action, even if MyCityApp Africa has been advised of the
               possibility of such damages.
             </p>
           </section>
 
           {/* Section 8 */}
           <section id="feedback" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               8. Feedback
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -416,51 +416,51 @@ const TermsConditionsPage = () => {
 
           {/* Section 9 */}
           <section id="privacy-policy" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               9. Privacy Policy and Other Guidelines
             </h2>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               A. Privacy Policy
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              MyCityApp will collect, use, store, and disclose personal
+              MyCityApp Africa will collect, use, store, and disclose personal
               information in accordance with its{" "}
               <a
                 href="/privacy-policy"
-                className="text-[#103729] underline font-medium"
+                className="text-[#111111] underline font-medium"
               >
                 Privacy Policy
               </a>
               , which is incorporated into, and made a part of, these Terms.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               B. Other Guidelines
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               Your use of the Platform or App is subject to all additional
               guidelines, rules, and agreements applicable to the Platform or
-              App or certain features that MyCityApp may post on, or link to,
+              App or certain features that MyCityApp Africa may post on, or link to,
               from the Platform or App.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               C. Data Protection
             </h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              MyCityApp processes personal data in accordance with the Nigeria
+              MyCityApp Africa processes personal data in accordance with the Botswana
               Data Protection Act (NDPA) and other applicable data protection
               laws.
             </p>
 
-            <h3 className="font-semibold text-[#103729] mb-2 text-lg">
+            <h3 className="font-semibold text-[#111111] mb-2 text-lg">
               D. Data Processing
             </h3>
             <p className="text-gray-700 leading-relaxed mb-2">
-              MyCityApp acknowledges that in providing the Services to you, you
-              and MyCityApp may be privy to the Personal Data of Data Subjects
-              as defined under the NDPA. MyCityApp undertakes that it will
+              MyCityApp Africa acknowledges that in providing the Services to you, you
+              and MyCityApp Africa may be privy to the Personal Data of Data Subjects
+              as defined under the NDPA. MyCityApp Africa undertakes that it will
               process the Personal Data based only on documented instructions
               from the Data Subjects and in accordance with its contractual
               agreement with such Data Subjects.
@@ -475,7 +475,7 @@ const TermsConditionsPage = () => {
 
           {/* Section 10 */}
           <section id="miscellaneous" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               10. Miscellaneous
             </h2>
 
@@ -486,45 +486,45 @@ const TermsConditionsPage = () => {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              <span className="font-semibold">10.4</span> MyCityApp may assign
+              <span className="font-semibold">10.4</span> MyCityApp Africa may assign
               its rights and responsibilities under these Terms, in whole or in
               part, at any time upon giving general prior notice.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
-              <span className="font-semibold">10.5</span> MyCityApp&apos;s
+              <span className="font-semibold">10.5</span> MyCityApp Africa&apos;s
               failure to act with respect to a breach by you or other Users does
-              not waive MyCityApp&apos;s right to act with respect to subsequent
+              not waive MyCityApp Africa&apos;s right to act with respect to subsequent
               or similar breaches.
             </p>
           </section>
 
           {/* Section 11 */}
           <section id="communications" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               11. Communications
             </h2>
 
             <p className="text-gray-700 leading-relaxed mb-4">
               <span className="font-semibold">11.1</span> By using the Platform
               or App, you consent to receive certain electronic communications
-              from MyCityApp as further described in the Privacy Policy. You
+              from MyCityApp Africa as further described in the Privacy Policy. You
               agree that any notices, agreements, disclosures, or other
-              communications that MyCityApp sends to you electronically will
+              communications that MyCityApp Africa sends to you electronically will
               satisfy any legal communication requirements, including that those
               communications be in writing.
             </p>
 
             <p className="text-gray-700 leading-relaxed">
               <span className="font-semibold">11.2</span> Communication by you
-              to MyCityApp shall be in writing, and shall be delivered
+              to MyCityApp Africa shall be in writing, and shall be delivered
               personally, via email, or sent by courier.
             </p>
           </section>
 
           {/* Section 12 */}
           <section id="governing-law" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               12. Governing Law
             </h2>
             <p className="text-gray-700 leading-relaxed">
@@ -533,7 +533,7 @@ const TermsConditionsPage = () => {
               arbitrator appointed by a consensus of the parties, or failing
               such consensus within fourteen (14) days of request, by the
               Chairman for the time being of the Chartered Institute of
-              Arbitration (UK) Nigeria branch. The arbitral proceedings shall be
+              Arbitration (UK) Botswana branch. The arbitral proceedings shall be
               conducted in Lagos and in accordance with the Arbitration and
               Mediation Act 2023. The decision of the Arbitrator and award
               granted shall be final.
@@ -542,14 +542,14 @@ const TermsConditionsPage = () => {
 
           {/* Section 13 */}
           <section id="notices" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               13. Notices
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              Notices to MyCityApp shall be sent to{" "}
+              Notices to MyCityApp Africa shall be sent to{" "}
               <a
                 href="mailto:admin@mycityapp.io"
-                className="text-[#103729] underline font-medium"
+                className="text-[#111111] underline font-medium"
               >
                 admin@mycityapp.io
               </a>
@@ -560,11 +560,11 @@ const TermsConditionsPage = () => {
 
           {/* Section 14 */}
           <section id="termination" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               14. Termination and Amendments to the Terms
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              MyCityApp may terminate, suspend, or modify your access to the
+              MyCityApp Africa may terminate, suspend, or modify your access to the
               Services at any time, with or without notice, for any reason. We
               may also amend these Terms from time to time; the most current
               version will be posted on our website, and your continued use of

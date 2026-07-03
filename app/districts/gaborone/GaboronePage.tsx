@@ -8,9 +8,9 @@ import React, { useRef, useState } from "react";
 
 export const features = [
   {
-    title: "Discover Lagos Like Never Before",
+    title: "Discover Gaborone Like Never Before",
     description:
-      "Real-time traffic information, route optimization, and congestion alerts to help you navigate Lagos efficiently.",
+      "Real-time traffic information, route optimization, and congestion alerts to help you navigate Gaborone efficiently.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export const features = [
   {
     title: "Find & Navigate with Ease",
     description:
-      "Book rides, find public transport schedules, and access various transportation options across Lagos.",
+      "Book rides, find public transport schedules, and access various transportation options across Gaborone.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +77,7 @@ export const features = [
   {
     title: "Grow Your Business",
     description:
-      "Discover local businesses, read reviews, get directions, and connect with Lagos entrepreneurs and services.",
+      "Discover local businesses, read reviews, get directions, and connect with Gaborone entrepreneurs and services.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -208,7 +208,7 @@ export const features = [
   },
 ];
 
-const LagosPage = () => {
+const GaboroneDistrictPage = () => {
   const [active, setActive] = useState(1);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -243,7 +243,7 @@ const LagosPage = () => {
     <div>
       {" "}
       <section className="h-[70dvh] md:h-[80dvh] relative overflow-hidden">
-        <article className="bg-[#01221D99] relative z-20 h-full w-full flex gap-4 flex-col justify-center items-center text-center">
+        <article className="bg-[#0B0B0B99] relative z-20 h-full w-full flex gap-4 flex-col justify-center items-center text-center">
           <div className=" rounded-full bg-[#F5F5F5] pr-3 flex gap-2 py-0.5 items-center">
             <article className="h-6 aspect-4/1 relative">
               <Image
@@ -258,7 +258,7 @@ const LagosPage = () => {
             </p>
           </div>
           <h5 className="text-4xl md:text-[5rem] text-[#F5F5F5] tracking-normal font-inter mt-2 mb-1 font-bold">
-            The app that knows <br /> Lagos
+            The app that knows <br /> Gaborone
           </h5>
           <DownloadAppButton />
         </article>
@@ -276,12 +276,12 @@ const LagosPage = () => {
       <section className="w-full py-32 px-5 relative">
         <div className="text-center flex flex-col h-full justify-center gap-4 items-center relative z-10">
           <h4 className="text-currentColor text-4xl md:text-5xl font-semibold mb-4 md:mt-5 -mt-8 inter ">
-            Experience Lagos like a native <span className="text-[#FFDF55]">…….</span>
+            Experience Gaborone like a local <span className="text-[#6DA9D2]">…….</span>
           </h4>
           <p className="text-[#657171] md:text-2xl text-base md:max-w-4xl">
-            MyLagosApp is the ultimate lifestyle companion for navigating and
-            experiencing Lagos. Powered by the Lagos State Government, the app
-            puts the city in the palm of your hand from Navigation to top
+            MyCityApp Africa is the ultimate lifestyle companion for navigating and
+            experiencing Gaborone. Built for Botswana, the app puts the city
+            in the palm of your hand from navigation to top
             attractions and events to restaurants, shopping, hotels/airbnbs, and
             essential services.
           </p>
@@ -293,16 +293,16 @@ const LagosPage = () => {
           fill
         />
       </section>
-      <CityEventSection state="LAGOS" />
+      <CityEventSection state="Gaborone" />
       <MaxWidthWrapper className="my-24">
         <header className="text-center">
           <h4 className="font-semibold text-4xl">
-            What You Can Do On MyLagosApp
+            What You Can Do On MyCityApp Africa
           </h4>
           <p className="text-[#4B5563] mt-4 max-w-[650px] mx-auto">
-            MyLagosApp has quickly become the go-to city guide for young
+            MyCityApp Africa has quickly become the go-to city guide for young
             professionals, creatives, Tourists/business travelers, and
-            Lagos-loving locals who want to live the city fully
+            Gaborone locals who want to experience the city fully
           </p>
         </header>
 
@@ -331,13 +331,13 @@ const LagosPage = () => {
                 }}
                 onMouseLeave={startIncrement}
                 className={`p-5 flex flex-col md:flex-row items-start gap-4 rounded-xl cursor-pointer ${
-                  idx + 1 === active ? "bg-[#FFEFAA]" : "bg-[#F7F7F8]"
+                  idx + 1 === active ? "bg-[#D6E9F5]" : "bg-[#F7F7F8]"
                 } `}
               >
                 <span
                   className={` p-2.5 rounded-lg  ${
                     idx + 1 === active
-                      ? "bg-[#56827B] text-white"
+                      ? "bg-[#5D8EAD] text-white"
                       : "bg-white text-black"
                   } `}
                 >
@@ -358,7 +358,7 @@ const LagosPage = () => {
       <MaxWidthWrapper>
         <header className="text-center">
           <h4 className="font-semibold text-4xl">
-            Why Lagosians Love MyLagosApp
+            Why Gaborone Loves MyCityApp Africa
           </h4>
         </header>
 
@@ -440,7 +440,7 @@ const LagosPage = () => {
           </div>
 
           <article className="pb-4 order-first md:order-0 flex flex-col">
-            <div className="bg-[#FFEFAA] px-6 md:pr-10 pt-6 flex flex-col rounded-xl h-full">
+            <div className="bg-[#D6E9F5] px-6 md:pr-10 pt-6 flex flex-col rounded-xl h-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="50"
@@ -448,7 +448,7 @@ const LagosPage = () => {
                 viewBox="0 0 50 50"
                 fill="none"
               >
-                <rect width="50" height="50" rx="8" fill="#014339" />
+                <rect width="50" height="50" rx="8" fill="#005A8D" />
                 <path
                   d="M11.0236 21.3641C11.4625 11.4895 22.0635 5.30712 31.0121 9.42935C38.794 13.0141 41.6389 23.7141 36.1223 30.4784C36.0672 30.5456 35.7524 30.9372 35.7042 30.9289C34.0116 29.0053 31.8306 27.4784 29.3889 26.6724C29.5176 26.4872 29.6843 26.3372 29.825 26.1608C32.5334 22.7682 31.2468 17.5006 26.9986 16.1868C23.9926 15.2571 20.9561 16.4085 19.4917 19.2048C18.2098 21.6525 18.6899 24.571 20.5848 26.5414C18.4611 27.5192 16.426 28.6747 14.7834 30.3618C14.7084 30.4386 14.2996 30.9409 14.2482 30.9298C12.7903 29.277 11.8292 27.221 11.3588 25.0687C11.1885 24.2886 11.0588 23.4377 11.0241 22.6474C11.0065 22.246 11.0061 21.7655 11.0241 21.3641H11.0236Z"
                   fill="white"
@@ -465,7 +465,7 @@ const LagosPage = () => {
 
               <header className="md:max-w-xl">
                 <h6 className="mt-3 inter text-lg">
-                  One app for everything Lagos
+                  One app for everything Gaborone
                 </h6>
                 <p className="text-[#756B59]">
                   All the features of the desktop app in your pocket
@@ -520,10 +520,10 @@ const LagosPage = () => {
               </svg>
 
               <h5 className="text-lg font-medium inter mt-12 md:mt-auto">
-                Trusted by Lagos State
+                Built for Botswana
               </h5>
               <p className="text-[#666867]">
-                The product is officially trusted by Lagos State.
+                One connected city experience designed for life in Botswana.
               </p>
             </article>
           </div>
@@ -534,4 +534,4 @@ const LagosPage = () => {
   );
 };
 
-export default LagosPage;
+export default GaboroneDistrictPage;

@@ -90,7 +90,7 @@ const Paginator: FC<PaginatorProps> = ({
             className={`p-3 h-10 flex items-center justify-center
              aspect-square rounded-md  ${
                page === current_page
-                 ? "bg-[#f5f5f5] text-[#014339] font-semibold"
+                 ? "bg-[#f5f5f5] text-[#005A8D] font-semibold"
                  : ""
              } ${page === ELLIPSIS ? "cursor-default text-[#667085]" : ""}text-[#667085] `}
           >

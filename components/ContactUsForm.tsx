@@ -74,7 +74,7 @@ const ContactUsForm = ({imageUrl}:{
           className="flex flex-col gap-4 max-w-[550px] pt-10 pb-20"
         >
           <header className="flex flex-col gap-3 mb-5">
-            <p className="font-semibold text-[#014339]">Contact us</p>
+            <p className="font-semibold text-[#005A8D]">Contact us</p>
             <h4 className="text-4xl font-semibold mb-2">Still have questions?</h4>
             <p>
               We hoped the FAQs would help. Since they didn&apos;t, please fill
@@ -112,15 +112,15 @@ const ContactUsForm = ({imageUrl}:{
           </div>
 
           {/* Privacy policy checkbox */}
-          <label className="flex items-start gap-3 text-sm text-[#34423B] mt-2">
+          <label className="flex items-start gap-3 text-sm text-[#344054] mt-2">
             <input
               type="checkbox"
               {...methods.register("privacy_policy")}
-              className="mt-1 w-4 h-4 accent-[#014339] cursor-pointer"
+              className="mt-1 w-4 h-4 accent-[#005A8D] cursor-pointer"
             />
             <span>
               You agree to our friendly{" "}
-              <a href="/privacy-policy" className="text-[#014339] underline">
+              <a href="/privacy-policy" className="text-[#005A8D] underline">
                 privacy policy
               </a>
               .
@@ -129,7 +129,7 @@ const ContactUsForm = ({imageUrl}:{
 
           <Button
             type="submit"
-            className="mt-4 w-full font-medium h-12 p-3 bg-[#014339] hover:bg-[#014339] text-white disabled:opacity-50 disabled:cursor-not-allowed"
+            className="mt-4 w-full font-medium h-12 p-3 bg-[#005A8D] hover:bg-[#005A8D] text-white disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={!methods.watch("privacy_policy") || isSubmitting}
           >
             {isSubmitting ? "Sending..." : "Send message"}

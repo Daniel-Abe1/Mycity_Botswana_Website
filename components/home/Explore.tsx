@@ -10,9 +10,9 @@ export const exploreCities = [
   {
     mainImage: "/img/explore/lagos-main.png",
     hoverImage: "/img/explore/lagos-main.png",
-    title: "Lagos",
-    description: "Explore Lagos",
-    href: "/states/lagos",
+    title: "Gaborone",
+    description: "Explore Gaborone",
+    href: "/districts/gaborone",
     featured: true,
   },
 ];
@@ -21,9 +21,10 @@ const Explore = () => {
   const router = useRouter();
 
   return (
-    <div className="relative py-16 min-h-[80dvh] ">
+    <div className="botswana-surface relative min-h-[80dvh] overflow-hidden border-y border-[#6DA9D2]/20 py-20">
+      <div className="absolute -right-24 top-20 h-72 w-72 rounded-full border-[45px] border-[#6DA9D2]/10" />
       <MaxWidthWrapper>
-        <header className="text-[#014339] mb-10">
+        <header className="text-[#005A8D] mb-10">
           <h4 className="uppercase font-semibold text-sm tracking-wider">
             Explore your city
           </h4>
@@ -35,10 +36,10 @@ const Explore = () => {
 
             <Button
               variant="outline"
-              onClick={() => router.push("/states")}
-              className="cursor-pointer font-semibold"
+              onClick={() => router.push("/districts")}
+              className="cursor-pointer border-[#005A8D] bg-white/70 font-semibold text-[#005A8D] shadow-sm backdrop-blur hover:bg-[#D6E9F5]"
             >
-              View all cities
+              View all districts
             </Button>
           </div>
         </header>
@@ -64,7 +65,7 @@ const Explore = () => {
               hoverImage={state.hero.imageUrl}
               title={state.shortName}
               description={`Explore ${state.shortName}`}
-              href={`/states/${state.stateSlug}`}
+              href={`/districts/${state.stateSlug}`}
             />
           ))}
         </section>

@@ -138,7 +138,7 @@ const EventCard = ({
         
 
         {/* Address */}
-        <span className="text-[#01221D] line-clamp-4">{address}</span>
+        <span className="text-[#0B0B0B] line-clamp-4">{address}</span>
       </div>
     </div>
   );

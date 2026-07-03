@@ -28,12 +28,12 @@ const Card = ({
   return (
     <article
       className={`${
-        active ? "bg-[#014339] text-white" : "text-[#666867]"
+        active ? "bg-[#005A8D] text-white" : "text-[#666867]"
       } border border-[#CCCFCE] space-y-3 p-5 rounded-3xl pb-16`}
     >
       <div
         className={`h-[237px] w-full relative ${
-          active ? "bg-[#0F4D44]" : "bg-[#f5f5f5]"
+          active ? "bg-[#145F86]" : "bg-[#f5f5f5]"
         } rounded-2xl`}
       >
         {!!heading ? (
@@ -54,7 +54,7 @@ const Card = ({
 
       <span
         className={`h-9 w-9 grid place-items-center rounded-full 
-            ${active ? "bg-[#0F4D44]" : "bg-[#F7F7F7]"} `}
+            ${active ? "bg-[#145F86]" : "bg-[#F7F7F7]"} `}
       >
         <svg
           width="18"
@@ -98,16 +98,16 @@ const Card = ({
 const FeaturesPage = () => {
   const { openDownloadModal } = useDownloadModal();
   return (
-    <div className="bg-[#F5F7F6] md:pt-28">
+    <div className="bg-[#F5F9FC] md:pt-28">
       <MaxWidthWrapper className="-my-5 md:my-2">
         <section className="py-20 text-center space-y-4">
-          <h4 className="inter mb-10 text-3xl md:text-5xl font-bold md:leading-14 text-[#1D4C45]">
+          <h4 className="inter mb-10 text-3xl md:text-5xl font-bold md:leading-14 text-[#1B5878]">
             Everything you need to explore <br />
-            Nigeria’s cities in one app.
+            Botswana’s cities in one app.
           </h4>
 
           <p className="max-w-[800px] mx-auto md:text-xl">
-            From Lagos to Abuja and other top cities in Nigeria, MyCityApp makes
+            From Lagos to Abuja and other top cities in Botswana, MyCityApp Africa makes
             your city <br />
             experience easier and smarter.
           </p>
@@ -118,7 +118,7 @@ const FeaturesPage = () => {
             <Card
               title={"Navigation & Discovery"}
               desc={
-                "Route feature that gives you access to a smart map and directions across Nigeria. Find Hotels/AirBnbs, Restaurants, Top spots in your city, Family fun places and historical landmarks and places to visit."
+                "Route feature that gives you access to a smart map and directions across Botswana. Find Hotels/AirBnbs, Restaurants, Top spots in your city, Family fun places and historical landmarks and places to visit."
               }
               heading={
                 <div className="h-full w-full relative">
@@ -175,7 +175,7 @@ const FeaturesPage = () => {
             <Card
               title={"Shopping"}
               desc={
-                "Shop from the top brands and stores in Nigeria, explore malls, boutiques, markets, and online stores for fashion, lifestyle, and everyday essentials."
+                "Shop from the top brands and stores in Botswana, explore malls, boutiques, markets, and online stores for fashion, lifestyle, and everyday essentials."
               }
               heading={
                 <div className="p-3 relative h-full w-full overflow-hidden">
@@ -216,7 +216,7 @@ const FeaturesPage = () => {
             <Card
               title={"Embassy"}
               desc={
-                "MyCityApp’s Embassy hub is your complete guide to all embassies and consulates across Nigeria. Whether you need contact information, office addresses, or essential details about visa processing and consular services, it’s all in one place. From major capitals to smaller cities, this feature ensures you have easy access to accurate, up-to-date embassy details anytime you need them."
+                "MyCityApp Africa’s Embassy hub is your complete guide to all embassies and consulates across Botswana. Whether you need contact information, office addresses, or essential details about visa processing and consular services, it’s all in one place. From major capitals to smaller cities, this feature ensures you have easy access to accurate, up-to-date embassy details anytime you need them."
               }
               heading={
                 <div className="h-full w-full relative bg-[#F5F5F5] rounded-2xl">
@@ -234,7 +234,7 @@ const FeaturesPage = () => {
             <Card
               title={"Bill Payments"}
               desc={
-                "Pay electricity bills, renew cable TV subscriptions, and even recharge airtime or data directly from MyCityApp. Fast, secure, and stress-free."
+                "Pay electricity bills, renew cable TV subscriptions, and even recharge airtime or data directly from MyCityApp Africa. Fast, secure, and stress-free."
               }
               heading={
                 <div className="h-full w-full relative bg-[#F5F5F5] rounded-2xl">
@@ -253,7 +253,7 @@ const FeaturesPage = () => {
             <Card
               title={"Jobs"}
               desc={
-                "Find the best jobs in your city or hire top local talent fast. Browse verified job listings, from entry-level to professional roles, and get instant notifications for new opportunities. MyCityApp connects job seekers with recruiters, making it easier than ever to apply, hire, and grow careers locally."
+                "Find the best jobs in your city or hire top local talent fast. Browse verified job listings, from entry-level to professional roles, and get instant notifications for new opportunities. MyCityApp Africa connects job seekers with recruiters, making it easier than ever to apply, hire, and grow careers locally."
               }
               heading={
                 <div className="h-full w-full relative bg-[#F5F5F5] rounded-2xl">
@@ -269,7 +269,7 @@ const FeaturesPage = () => {
             <Card
               title={"Immigration"}
               desc={
-                "Plan your travels with ease. Access up-to-date immigration information and visa requirements. Whether you’re applying for a passport, visa, or other travel documents, MyCityApp helps you get details for the process quickly "
+                "Plan your travels with ease. Access up-to-date immigration information and visa requirements. Whether you’re applying for a passport, visa, or other travel documents, MyCityApp Africa helps you get details for the process quickly "
               }
               heading={
                 <div className="h-full w-full relative bg-[#F5F5F5] rounded-2xl">
@@ -285,7 +285,7 @@ const FeaturesPage = () => {
             <Card
               title={"Events & Tourism"}
               desc={
-                "Never miss out again. Discover networking events, concerts, festivals, parties, exhibitions, and explore Nigeria’s top tourist attractions and hidden gems."
+                "Never miss out again. Discover networking events, concerts, festivals, parties, exhibitions, and explore Botswana’s top tourist attractions and hidden gems."
               }
               type="video"
               src="/video/events-tourism.mp4"
@@ -324,11 +324,11 @@ const FeaturesPage = () => {
               </div>
 
               <h6 className="inter font-semibold text-xl text-[#292929]">
-                Download MyCityApp Now
+                Download MyCityApp Africa Now
               </h6>
 
               <p className="text-[#666867] px-3 mb-3">
-                Get the app on iOS and Android today and start navigating naija
+                Get the app on iOS and Android today and start navigating Botswana
                 like an expert
               </p>
 

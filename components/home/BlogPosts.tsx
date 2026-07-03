@@ -17,7 +17,7 @@ const BlogPosts = () => {
               All blog posts
             </h5>
 
-            <Button variant="outline" onClick={()=>router.push('/blog')} className="font-semibold text-[#014339]">
+            <Button variant="outline" onClick={()=>router.push('/blog')} className="font-semibold text-[#005A8D]">
               Read More
             </Button>
           </div>

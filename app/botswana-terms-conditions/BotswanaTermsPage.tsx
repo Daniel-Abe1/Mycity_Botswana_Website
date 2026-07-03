@@ -7,11 +7,11 @@ const BotswanaTermsPage = () => {
   return (
     <div>
       <MaxWidthWrapper className="mt-12 lg:mt-40 flex max-w-5xl flex-col gap-1 mb-6">
-        <span className="tracking-wide text-xs text-[#57756A]">LEGAL</span>
-        <h1 className="text-[2.5rem] font-black text-[#103729] leading-14">
+        <span className="tracking-wide text-xs text-[#607D8E]">LEGAL</span>
+        <h1 className="text-[2.5rem] font-black text-[#111111] leading-14">
           Terms &amp; Conditions - CityApp Africa
         </h1>
-        <span className="text-[#57756A]">Last updated: June 2026</span>
+        <span className="text-[#607D8E]">Last updated: June 2026</span>
       </MaxWidthWrapper>
 
       {/* Content */}
@@ -23,11 +23,11 @@ const BotswanaTermsPage = () => {
           </p>
 
           {/* Table of Contents */}
-          <div className="my-8 p-6 bg-[#F3F7F566] rounded-xl border border-[#E2E9E7]">
-            <h2 className="font-semibold tracking-widest text-[#103729] mb-3 uppercase">
+          <div className="my-8 p-6 bg-[#F1F7FB66] rounded-xl border border-[#DCEAF3]">
+            <h2 className="font-semibold tracking-widest text-[#111111] mb-3 uppercase">
               Table of Contents
             </h2>
-            <ol className="list-decimal list-inside space-y-1 text-[#103729] text-sm grid grid-cols-2 gap-1">
+            <ol className="list-decimal list-inside space-y-1 text-[#111111] text-sm grid grid-cols-2 gap-1">
               <li>
                 <a href="#introduction" className="hover:underline">
                   Introduction
@@ -88,7 +88,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 1 */}
           <section id="introduction" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               1. Introduction
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -109,12 +109,12 @@ const BotswanaTermsPage = () => {
 
           {/* Section 2 */}
           <section id="definitions" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               2. Definitions
             </h2>
             <div className="overflow-x-auto rounded-xl border border-gray-200">
               <table className="w-full text-sm text-gray-700">
-                <thead className="bg-[#103729] text-white">
+                <thead className="bg-[#111111] text-white">
                   <tr>
                     <th className="text-left px-4 py-3 font-medium">Term</th>
                     <th className="text-left px-4 py-3 font-medium">Meaning</th>
@@ -151,7 +151,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 3 */}
           <section id="eligibility" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               3. Eligibility
             </h2>
             <ul className=" space-y-2 text-gray-700">
@@ -165,7 +165,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 4 */}
           <section id="account-registration" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               4. Account Registration
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">
@@ -184,7 +184,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 5 */}
           <section id="acceptable-use" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               5. Acceptable Use Policy
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">
@@ -205,7 +205,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 6 */}
           <section id="intellectual-property" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               6. Intellectual Property
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">
@@ -220,7 +220,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 7 */}
           <section id="third-party" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               7. Third-Party Listings
             </h2>
             <p className="text-gray-700 leading-relaxed mb-2">
@@ -239,7 +239,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 8 */}
           <section id="service-availability" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               8. Service Availability
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">
@@ -251,7 +251,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 9 */}
           <section id="limitation-of-liability" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               9. Limitation of Liability
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">
@@ -269,7 +269,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 10 */}
           <section id="termination" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               10. Termination
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">
@@ -280,7 +280,7 @@ const BotswanaTermsPage = () => {
 
           {/* Section 11 */}
           <section id="governing-law" className="mb-10">
-            <h2 className="text-2xl font-bold text-[#103729] mb-3">
+            <h2 className="text-2xl font-bold text-[#111111] mb-3">
               11. Governing Law
             </h2>
             <p className="text-gray-700 leading-relaxed mb-3">

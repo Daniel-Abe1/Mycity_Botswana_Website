@@ -19,7 +19,7 @@ const CtaHand = () => {
             Ready to Experience your city Smarter?
           </h4>
           <h3 className="inter text-2xl md:text-4xl font-bold text-[#292929] mb-3 md:mb-6">
-            Download MyCityApp Now
+            Download MyCityApp Africa Now
           </h3>
           <DownloadAppButton />
         </article>
