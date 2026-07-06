@@ -21,11 +21,11 @@ const Hero = () => {
 
       {/* Overlay and content */}
       <section className="relative h-full bg-[#0B0B0B99] flex flex-col gap-3 justify-center items-center text-white text-center px-4">
-        <p className="text-base p-2 mb-1 font-semibold rounded-full bg-[#005A8D] -mt-4">
+        <p className="text-base p-2 mb-1 font-semibold rounded-full bg-[#004A73] -mt-4">
           One app, every Botswana city, zero stress.
         </p>
 
-        <h2 className="text-5xl md:text-[4.4rem] tracking-normal font-inter font-bold">
+        <h2 className="text-[2.9rem] md:text-[4.3rem] leading-none tracking-normal font-inter font-bold">
           The app that knows Botswana
         </h2>
 
