@@ -158,7 +158,7 @@ const BotswanaPrivacyPolicyPage = () => {
             <h2 className="text-2xl font-bold text-[#111111] mb-3">9. Contact for Privacy Requests</h2>
             <p className="text-gray-700 leading-relaxed">
               E-mail:{" "}
-              <a href="mailto:admin@mycityapp.io" className="text-[#111111] underline">
+              <a href="mailto:info@mycityappbw.com" className="text-[#111111] underline">
                 privacy@cityapp.africa
               </a>
             </p>
