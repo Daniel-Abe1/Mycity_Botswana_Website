@@ -14,45 +14,63 @@ import CtaPhone from "@/components/CtaPhone";
 const heroSlides = [
   {
     image: "/img/tourism-hero/hero-1.png",
-    location: "Discovery museum, Abuja",
+    location: "Okavango Delta, North-West District",
   },
   {
     image: "/img/tourism-hero/hero-2.png",
-    location: "Durban Festival, Kano",
+    location: "Chobe Riverfront, Chobe District",
   },
   {
     image: "/img/tourism-hero/hero-3.png",
-    location: "Zuma rock, Abuja",
+    location: "Makgadikgadi Pans, Central Botswana",
   },
   {
     image: "/img/tourism-hero/hero-4.png",
-    location: "National Theatre, Lagos State",
+    location: "Tsodilo Hills, North-West District",
   },
 ];
 
 const adventure = [
-  { title: "Eyo Festival", description: 'Experience the iconic white-robed masquerades celebrating Lagos heritage', state: 'Lagos state', imageUrl: "/img/tourism/cultural-experience-1.png" },
-  { title: "Ojude Oba", description: 'Witness the colorful Aso Oke ceremonies of Yoruba culture', state: 'Ogun state', imageUrl: "/img/tourism/cultural-experience-2.png" },
-  { title: "Durbar Festival", description: 'The festival features a colorful parade of horsemen, including emirs and their entourages, dressed in elaborate traditional robes and turbans.', state: 'Kano state', imageUrl: "/img/tourism/heritage-experience.png" },
+  {
+    title: "Kuru Dance & Music Festival",
+    description:
+      "Celebrate San music, dance, storytelling and contemporary art in the creative village of D’Kar.",
+    state: "Ghanzi District",
+    imageUrl: "/img/tourism/cultural-experience-1.png",
+  },
+  {
+    title: "Dithubaruba Cultural Festival",
+    description:
+      "Experience Bakwena history, traditional performance, poetry and community heritage in Molepolole.",
+    state: "Kweneng District",
+    imageUrl: "/img/tourism/cultural-experience-2.png",
+  },
+  {
+    title: "Domboshaba Cultural Festival",
+    description:
+      "Discover Kalanga music, dance, food and living tradition beside one of Botswana’s great stone heritage sites.",
+    state: "North East District",
+    imageUrl: "/img/tourism/heritage-experience.png",
+  },
 ];
 
 const holidayDestinations = [
   {
-    title: "Tropical Beaches",
-    location: "Lagos & Cross River",
+    title: "Okavango Delta",
+    location: "North-West District",
     imageUrl: "/img/tourism/holiday-destination-1.png",
     featured: true,
     tag: "Featured"
   },
   {
-    title: "Rainforest Waterfalls",
-    location: "Cross River",
+    title: "Chobe National Park",
+    location: "Chobe District",
     imageUrl: "/img/tourism/holiday-destination-2.png",
     featured: false
   },
   {
-    title: "Zuma Rock",
-    location: "Niger State",
+    title: "Kgalagadi Transfrontier Park",
+    location: "Kgalagadi District",
     imageUrl: "/img/tourism/holiday-destination-3.png",
     featured: false
   },
@@ -60,28 +78,28 @@ const holidayDestinations = [
 
 const historicalMonuments = [
   {
-    title: "Aso Rock",
-    location: "Abuja",
-    description: "Botswana's iconic presidential rock formation",
+    title: "Three Dikgosi Monument",
+    location: "Gaborone",
+    description: "A tribute to the three dikgosi whose 1895 journey helped shape Botswana's future.",
     imageUrl: "/img/tourism/historical-landmark-1.png"
   },
   {
-    title: "Oba's Palace",
-    location: "Benin City",
-    description: "Ancient royal palace with rich cultural heritage",
+    title: "Tsodilo Hills",
+    location: "North-West District",
+    description: "A UNESCO World Heritage landscape preserving thousands of rock paintings.",
     imageUrl: "/img/tourism/historical-landmark-2.png"
   },
   {
-    title: "Osun Sacred Grove",
-    location: "Osun State",
-    description: "A mystical forest sanctuary with World Heritage status",
+    title: "Domboshaba Ruins",
+    location: "North East District",
+    description: "Fifteenth-century dry-stone walls reveal a sophisticated early settlement.",
     imageUrl: "/img/tourism/historical-landmark-3.png"
   },
   {
-    title: "Kano City Walls",
-    location: "Kano",
-    description: "14th century defensive walls spanning 14km",
-    imageUrl: "/img/tourism/heritage-experience.png"
+    title: "Old Palapye",
+    location: "Central District",
+    description: "Ruins of Khama III's nineteenth-century capital at the Tswapong Hills.",
+    imageUrl: "/img/tourism/historical-landmark-4.png"
   },
 ];
 
@@ -101,9 +119,9 @@ const TourismPage = () => {
           <p className="text-white max-w-4xl md:text-xl text-base -mt-1">
             Botswana isn&apos;t just a place you visit, it&apos;s an experience
             you live. Dive into Botswana&apos;s culture, heritage, and hidden
-            gems, explore ancient kingdoms, vibrant festivals, breathtaking
-            waterfalls, sandy beaches, sacred groves, and historical landmarks
-            that remind us who we are.
+            gems. Explore ancient heritage sites, vibrant festivals, wildlife
+            rich wetlands, immense salt pans, desert landscapes, and historical
+            landmarks that tell Botswana&apos;s story.
           </p>
 
           <DownloadAppButton
@@ -157,8 +175,9 @@ const TourismPage = () => {
             </span>
           </h4>
           <p className="text-[#7891A1] max-w-2xl mx-auto">
-            From the colorful festivals of the South to the grand durbars of the North,
-Botswana&apos;s cultural tapestry is woven with over 250 ethnic groups.
+            From San dance and storytelling in Ghanzi to Bakwena celebrations
+            in Molepolole and Kalanga heritage in the North East, Botswana&apos;s
+            traditions remain proudly alive.
           </p>
         </header>
 

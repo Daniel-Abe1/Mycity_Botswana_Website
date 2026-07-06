@@ -9,10 +9,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Link from "next/link";
 import {
-  ArrowUpRight,
   Calendar,
   MapPin,
-  PartyPopper,
   SearchIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
