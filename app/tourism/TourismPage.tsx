@@ -208,7 +208,7 @@ Botswana&apos;s cultural tapestry is woven with over 250 ethnic groups.
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-black/70" />
             <div className="absolute bottom-0 left-0 p-8 text-white">
               {holidayDestinations[0].tag && (
-                <span className="inline-block bg-[#6DA9D2] text-[#005A8D] text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                <span className="mb-3 inline-block w-fit rounded-xl border border-[#E8C84A]/60 bg-[#F7EDBE] p-1 px-3 text-sm font-semibold text-[#5B4A0A] shadow-sm">
                   {holidayDestinations[0].tag}
                 </span>
               )}
