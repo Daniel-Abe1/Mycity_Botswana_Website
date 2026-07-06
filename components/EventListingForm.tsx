@@ -388,8 +388,8 @@ const EventListingForm = ({ onSuccess }: { onSuccess?: () => void }) => {
 
               <FormTextInput
                 name="cityState"
-                label="City/State"
-                placeholder="e.g Ikoyi, Lagos"
+                label="City/District"
+                placeholder="e.g Ikoyi, Gaborone"
                 requiredIndicator
               />
             </div>

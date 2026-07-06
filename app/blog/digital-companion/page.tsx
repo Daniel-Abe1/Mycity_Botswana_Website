@@ -13,15 +13,16 @@ const DigitalCompanionPage = () => {
             12 February, 2025 • 3 min read
           </p>
           <h1 className="font-semibold text-[#101828] text-4xl md:text-5xl leading-tight">
-            MyCityApp Africa: The Digital Companion for Everyday City Living in Botswana
+            MyCityApp Africa: The Digital Companion for Everyday City Living in
+            Botswana
           </h1>
           <p className="text-lg text-[#667085] leading-relaxed">
-            Every Botswana city has its own rhythm. The pace of Lagos, the
-            structure of Abuja, the energy of Port Harcourt, and the cultural
-            depth of Kano all demand different ways of moving, exploring, and
-            staying informed. MyCityApp Africa is a Botswana city lifestyle app built
-            to be your digital companion, helping you navigate everyday city
-            life with clarity and confidence across Botswana.
+            Every Botswana city has its own rhythm. The pace of Gaborone, the
+            heritage of Francistown, the energy of Maun, and the riverside
+            character of Kasane all inspire different ways of moving,
+            exploring, and staying informed. MyCityApp Africa is a Botswana
+            lifestyle app built to be your digital companion, helping you
+            navigate everyday city life with clarity and confidence.
           </p>
         </header>
 
@@ -43,20 +44,20 @@ const DigitalCompanionPage = () => {
               <p className="leading-relaxed mb-4">
                 Urban life in Botswana means constantly making decisions: where
                 to eat, Which road to take, What is happening nearby, Which
-                places are worth your time. In cities like Benin City, Abeokuta,
-                and towns across Jeda State, useful information is often
-                scattered across social media, radio stations, WhatsApp groups,
-                and word of mouth. MyCityApp Africa brings all of this together into
-                one smart city app for Botswana, making everyday city living
-                simpler and less stressful.
+                places are worth your time. In Gaborone, Francistown, Maun, and
+                towns across Botswana, useful information is often scattered
+                across social media, radio stations, WhatsApp groups, and word
+                of mouth. MyCityApp Africa brings all of this together into one
+                smart city app for Botswana, making everyday city living simpler
+                and less stressful.
               </p>
             </section>
 
             <blockquote className="border-l-4 border-[#6DA9D2] px-6 py-4  italic text-2xl text-[#101828]">
-              &quot;The first thing MyCityApp Africa helps you do is explore. From
-              discovering restaurants and lounges to finding hotels, short lets,
-              embassies, and important city locations, the app keeps exploration
-              local and relevant.&quot;
+              &quot;The first thing MyCityApp Africa helps you do is explore.
+              From discovering restaurants and lounges to finding hotels, short
+              lets, embassies, and important city locations, the app keeps
+              exploration local and relevant.&quot;
             </blockquote>
 
             <section>
@@ -70,14 +71,15 @@ const DigitalCompanionPage = () => {
                 From discovering restaurants and lounges to finding hotels,
                 short lets, embassies, and important city locations, the app
                 keeps exploration local and relevant. Whether you are looking
-                for places to eat in Lagos, hotels in Abuja, new hangout spots
-                in Port Harcourt, or places to visit in Abeokuta, MyCityApp Africa
-                removes the guesswork from city discovery.
+                for places to eat in Gaborone, hotels in Maun, new hangout spots
+                in Francistown, or places to visit around Kasane, MyCityApp
+                Africa removes the guesswork from city discovery.
               </p>
               <p className="leading-relaxed">
                 This makes it a reliable local city guide for Botswana,
                 especially for people relocating, students, travellers, and
-                professionals who move frequently between
+                professionals who move frequently between Botswana&apos;s cities
+                and districts.
               </p>
             </section>
 
@@ -102,12 +104,12 @@ const DigitalCompanionPage = () => {
                 Everyday Tools That Fit Botswana City Life
               </h2>
               <p className="leading-relaxed">
-                Beyond exploration, MyCityApp Africa supports daily living. Users can
-                pay for airtime, data, and TV subscriptions directly within the
-                app, making it useful even on days when they are not actively
-                exploring. Emergency contacts and essential service information
-                are also easy to access, especially for people navigating a new
-                city for the first time.
+                Beyond exploration, MyCityApp Africa supports daily living.
+                Users can pay for airtime, data, and TV subscriptions directly
+                within the app, making it useful even on days when they are not
+                actively exploring. Emergency contacts and essential service
+                information are also easy to access, especially for people
+                navigating a new city for the first time.
               </p>
             </section>
 
@@ -125,10 +127,10 @@ const DigitalCompanionPage = () => {
                 Built for Botswana Cities, City by City
               </h2>
               <p className="leading-relaxed mb-4">
-                MyCityApp Africa is designed for Botswana cities and built city by
-                city. Starting with priority locations like Lagos, Abuja, Port
-                Harcourt, Benin City, Abeokuta, Kano, and cities across Abia
-                State, the app focuses on relevance, accuracy, and trust.
+                MyCityApp Africa is designed for Botswana cities and built city
+                by city. Starting with priority locations like Gaborone,
+                Francistown, Maun, Kasane, Lobatse, Jwaneng, and Selibe Phikwe,
+                the app focuses on relevance, accuracy, and trust.
               </p>
             </section>
 
@@ -167,7 +169,7 @@ const DigitalCompanionPage = () => {
                 />
                 <p className="text-xs text-[#005A8D]">
                   Read about our{" "}
-                  <a href="#" className="underline">
+                  <a href="/botswana-privacy-policy" className="underline">
                     privacy policy
                   </a>
                 </p>

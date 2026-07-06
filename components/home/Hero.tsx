@@ -21,7 +21,7 @@ const Hero = () => {
 
       {/* Overlay and content */}
       <section className="relative h-full bg-[#0B0B0B99] flex flex-col gap-3 justify-center items-center text-white text-center px-4">
-        <p className="text-base p-2 mb-1 font-semibold rounded-full bg-[#004A73] -mt-4">
+        <p className="text-base p-2 mb-2 font-semibold rounded-full bg-[#004A73] -mt-4">
           One app, every Botswana city, zero stress.
         </p>
 

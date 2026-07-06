@@ -14,8 +14,8 @@ const blogPosts = [
   {
     date: "17 Jan 2026",
     minRead: "3 mins read",
-    title: "Suya, Jollof, and Online Deals: Shopping the Botswana...",
-    desc: "Whether it’s a late-night suya craving or grabbing fashion from top brands, discover how MyCityApp Africa brings Botswana’s food and shopping culture right into your pocket.",
+    title: "Seswaa, Magwinya, and Online Deals: Shopping in Botswana...",
+    desc: "Whether it’s a craving for seswaa and magwinya or discovering local fashion, see how MyCityApp Africa brings Botswana’s food and shopping culture into your pocket.",
     image: "/img/blog.png",
   },
   {
@@ -36,8 +36,8 @@ const blogPosts = [
   {
     date: "17 Jan 2026",
     minRead: "3 mins read",
-    title: "Suya, Jollof, and Online Deals: Shopping the Botswana...",
-    desc: "Whether it’s a late-night suya craving or grabbing fashion from top brands, discover how MyCityApp Africa brings Botswana’s food and shopping culture right into your pocket.",
+    title: "Seswaa, Magwinya, and Online Deals: Shopping in Botswana...",
+    desc: "Whether it’s a craving for seswaa and magwinya or discovering local fashion, see how MyCityApp Africa brings Botswana’s food and shopping culture into your pocket.",
     image: "/img/blog.png",
   },
   {

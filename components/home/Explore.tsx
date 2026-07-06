@@ -8,8 +8,8 @@ import { statesData } from "@/lib/statesData";
 
 export const exploreCities = [
   {
-    mainImage: "/img/explore/lagos-main.png",
-    hoverImage: "/img/explore/lagos-main.png",
+    mainImage: "/img/explore/gaborone-main.png",
+    hoverImage: "/img/explore/gaborone-main.png",
     title: "Gaborone",
     description: "Explore Gaborone",
     href: "/districts/gaborone",

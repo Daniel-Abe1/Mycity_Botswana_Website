@@ -20,9 +20,7 @@ const schema = z.object({
 
 type ContactFormType = z.infer<typeof schema>;
 
-const ContactUsForm = ({imageUrl}:{
-  imageUrl?: string
-}) => {
+const ContactUsForm = ({ imageUrl }: { imageUrl?: string }) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const methods = useForm<ContactFormType>({
@@ -38,14 +36,17 @@ const ContactUsForm = ({imageUrl}:{
 
   const onSubmit = async (values: ContactFormType) => {
     setIsSubmitting(true);
-    
+
     try {
       const formData = new FormData();
-      formData.append("access_key", process.env.NEXT_PUBLIC_FORMLY_ACCESS_KEY || "");
+      formData.append(
+        "access_key",
+        process.env.NEXT_PUBLIC_FORMLY_ACCESS_KEY || "",
+      );
       formData.append("name", `${values.firstName} ${values.lastName}`);
       formData.append("email", values.email);
       formData.append("message", values.message);
-      formData.append("subject", 'MyCity Website Submission - Contact Us');
+      formData.append("subject", "MyCity Website Submission - Contact Us");
 
       const response = await fetch("https://formly.email/submit", {
         method: "POST",
@@ -75,7 +76,9 @@ const ContactUsForm = ({imageUrl}:{
         >
           <header className="flex flex-col gap-3 mb-5">
             <p className="font-semibold text-[#005A8D]">Contact us</p>
-            <h4 className="text-4xl font-semibold mb-2">Still have questions?</h4>
+            <h4 className="text-4xl font-semibold mb-2">
+              Still have questions?
+            </h4>
             <p>
               We hoped the FAQs would help. Since they didn&apos;t, please fill
               this short form and we&apos;d give you special attention as
@@ -97,18 +100,15 @@ const ContactUsForm = ({imageUrl}:{
           </div>
 
           <div className="mb-3">
-          <FormTextInput
-            name="email"
-            label="Email address"
-            placeholder="yourname@mail.com"
-          />
+            <FormTextInput
+              name="email"
+              label="Email address"
+              placeholder="yourname@mail.com"
+            />
           </div>
 
           <div className="mb-1">
-          <FormTextArea
-            name="message"
-            label="Message"
-          />
+            <FormTextArea name="message" label="Message" />
           </div>
 
           {/* Privacy policy checkbox */}
@@ -120,7 +120,10 @@ const ContactUsForm = ({imageUrl}:{
             />
             <span>
               You agree to our friendly{" "}
-              <a href="/privacy-policy" className="text-[#005A8D] underline">
+              <a
+                href="/botswana-privacy-policy"
+                className="text-[#005A8D] underline"
+              >
                 privacy policy
               </a>
               .
@@ -141,11 +144,11 @@ const ContactUsForm = ({imageUrl}:{
         <Image
           src={imageUrl || "/img/contact.jpg"}
           fill
-          className={`object-cover ${imageUrl ? '' : 'scale-x-[-1]'}`}
+          className={`object-cover ${imageUrl ? "" : "scale-x-[-1]"}`}
           alt=""
         />
       </article>
-      </MaxWidthWrapper>
+    </MaxWidthWrapper>
   );
 };
 

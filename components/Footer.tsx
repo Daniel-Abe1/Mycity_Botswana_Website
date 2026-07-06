@@ -18,10 +18,11 @@ const sitemap = [
   { name: "FAQs", href: "/faqs" },
   { name: "Events", href: "/events" },
   { name: "Tourism", href: "/tourism" },
-  { name: "Privacy Policy", href: "/privacy-policy" },
-  { name: "Terms & Conditions", href: "/terms-conditions" },
   { name: "Privacy Policy - CityApp Africa", href: "/botswana-privacy-policy" },
-  { name: "Terms & Conditions - CityApp Africa", href: "/botswana-terms-conditions" },
+  {
+    name: "Terms & Conditions - CityApp Africa",
+    href: "/botswana-terms-conditions",
+  },
   { name: "Contact Us", href: "/contact-us" },
 ];
 
@@ -61,16 +62,7 @@ const Footer = () => {
             <h3 className="font-medium text-white mb-3">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="mailto:info@mycityapp.io">admin@mycityapp.io</a>
-              </li>
-              <li>
-                <a href="tel:+2349160006213">+234 916 000 6213</a>
-              </li>
-              <li className="pt-2 font-medium text-white">Botswana</li>
-              <li>
-                <a href="mailto:info@mycityappbw.com">
-                  info@mycityappbw.com
-                </a>
+                <a href="mailto:info@mycityappbw.com">info@mycityappbw.com</a>
               </li>
               <li>
                 <a href="tel:+26772863551">(+267) 72 863 551</a>
@@ -87,7 +79,12 @@ const Footer = () => {
               <ul className="space-y-3 grid grid-cols-2 text-sm">
                 {sitemap.map((item) => (
                   <li key={item.name}>
-                    <Link href={item.href} className="hover:text-white transition-colors">{item.name}</Link>
+                    <Link
+                      href={item.href}
+                      className="hover:text-white transition-colors"
+                    >
+                      {item.name}
+                    </Link>
                   </li>
                 ))}
               </ul>

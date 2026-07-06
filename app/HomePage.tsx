@@ -2,7 +2,6 @@
 import CtaHand from "@/components/CtaHand";
 import FaqSection from "@/components/FaqSection";
 import BlogPosts from "@/components/home/BlogPosts";
-import EmberCampaign from "@/components/home/EmberCampaign";
 import Explore from "@/components/home/Explore";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import Hero from "@/components/home/Hero";
@@ -16,7 +15,6 @@ const HomePage = () => {
     <div>
       <Hero />
       <Explore />
-      <EmberCampaign />
       <FeaturesSection />
       {/* <RealExperienceSection /> */}
       <Testimonials />

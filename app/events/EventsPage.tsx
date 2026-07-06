@@ -243,7 +243,7 @@ const EventsPage = () => {
         )}
 
       {/* Ember to Remember CTA */}
-      <MaxWidthWrapper
+      {/* <MaxWidthWrapper
         id="ember-to-remember"
         className="relative my-16 grid scroll-mt-24 overflow-hidden rounded-[2rem] border border-[#6DA9D2]/35 bg-[#F8FCFF] p-0 shadow-[0_24px_70px_rgba(0,90,141,0.14)] lg:grid-cols-[0.7fr_1.3fr]"
       >
@@ -295,9 +295,9 @@ const EventsPage = () => {
             <ArrowUpRight size={19} />
           </button>
         </div>
-      </MaxWidthWrapper>
+      </MaxWidthWrapper> */}
 
-      <MaxWidthWrapper className="my-10 flex flex-col gap-3">
+      <MaxWidthWrapper className="my-16 flex flex-col gap-3">
         <h3 className="md:text-2xl text-[#005A8D] font-semibold inter mb-4">
           Upcoming Events
         </h3>
