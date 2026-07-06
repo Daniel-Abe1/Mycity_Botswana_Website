@@ -401,6 +401,438 @@ export const statesData: Record<string, StateData> = {
       },
     ],
   },
+  kgatleng: {
+    stateSlug: "kgatleng",
+    shortName: "Kgatleng",
+    fullName: "Kgatleng District",
+    eventSlug: "Kgatleng",
+    hero: {
+      imageUrl: "/img/states/kgatleng-hero.png",
+      title: "Kgatleng: Sacred Footprints, Craft and Bakgatla Heritage",
+    },
+    discover: {
+      description:
+        "Follow ancient stories, creative traditions and dramatic hills through the proud cultural heartland of the Bakgatla.",
+      slides: [
+        {
+          id: "01",
+          title: "Matsieng's Ancient Footprints",
+          description:
+            "Near Rasesa, Matsieng preserves rock engravings and natural potholes tied to one of Botswana's best-known creation stories. The site blends archaeology, landscape and living belief in a memorable open-air experience.",
+          image: "/img/states/kgatleng-1.png",
+        },
+        {
+          id: "02",
+          title: "Mochudi & Bakgatla Heritage",
+          description:
+            "Climb Phuthadikobo Hill in Mochudi to explore the museum, historic buildings and sweeping village views. The main kgotla and local traditions reveal the enduring identity of the Bakgatla-ba-Kgafela.",
+          image: "/img/states/kgatleng-2.png",
+        },
+        {
+          id: "03",
+          title: "Oodi's Creative Spirit",
+          description:
+            "Oodi is celebrated for handwoven textiles, contemporary craft and community creativity. Workshops and locally made pieces offer visitors a colourful connection to Botswana's modern design culture.",
+          image: "/img/states/kgatleng-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <Layers size={30} />,
+        title: "Bakgatla Heartland",
+        description: "Mochudi is a major centre of culture and tradition",
+      },
+      {
+        icon: <MapPin size={30} />,
+        title: "Matsieng Footprints",
+        description: "Ancient engravings wrapped in powerful folklore",
+      },
+      {
+        icon: <Sun size={30} />,
+        title: "Artisan District",
+        description: "Known for Oodi weaving and community-made craft",
+      },
+    ],
+  },
+  "north-east": {
+    stateSlug: "north-east",
+    shortName: "North East",
+    fullName: "North East District",
+    eventSlug: "North-East",
+    hero: {
+      imageUrl: "/img/states/north-east-hero.png",
+      title: "North East: Stone Kingdoms and Kalanga Traditions",
+    },
+    discover: {
+      description:
+        "Explore ancient stone settlements, fertile Tati landscapes and the rich living heritage of Botswana's Kalanga communities.",
+      slides: [
+        {
+          id: "01",
+          title: "Domboshaba's Stone Legacy",
+          description:
+            "Domboshaba's precisely built dry-stone walls and hilltop enclosures date to around the fifteenth century. Walking the monument offers a striking window into the region's powerful pre-colonial societies.",
+          image: "/img/states/north-east-1.png",
+        },
+        {
+          id: "02",
+          title: "Kalanga Culture in Masunga",
+          description:
+            "Masunga and surrounding villages keep Kalanga language, food, music and community traditions vibrant. Local celebrations and everyday village life make the district culturally rewarding throughout the year.",
+          image: "/img/states/north-east-2.png",
+        },
+        {
+          id: "03",
+          title: "Tati River Country",
+          description:
+            "Granite outcrops, seasonal rivers and farmland shape the district's green northern character. Scenic drives connect welcoming villages, heritage sites and peaceful outdoor stops near the Zimbabwe border.",
+          image: "/img/states/north-east-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <Layers size={30} />,
+        title: "Ancient Domboshaba",
+        description: "Remarkable dry-stone architecture from around 1450",
+      },
+      {
+        icon: <Sun size={30} />,
+        title: "Kalanga Heritage",
+        description: "Language, music and customs remain proudly alive",
+      },
+      {
+        icon: <MapPin size={30} />,
+        title: "Tati Landscapes",
+        description: "Rivers, granite hills and productive countryside",
+      },
+    ],
+  },
+  ghanzi: {
+    stateSlug: "ghanzi",
+    shortName: "Ghanzi",
+    fullName: "Ghanzi District",
+    eventSlug: "Ghanzi",
+    hero: {
+      imageUrl: "/img/states/ghanzi-hero.png",
+      title: "Ghanzi: Culture and Adventure at the Kalahari Gateway",
+    },
+    discover: {
+      description:
+        "Meet desert artists, skilled trackers and ranching communities in a district shaped by the immense western Kalahari.",
+      slides: [
+        {
+          id: "01",
+          title: "San Culture in D'Kar",
+          description:
+            "D'Kar is known for San-led cultural initiatives, vivid contemporary art and the Kuru Dance and Music Festival. Respectful community experiences share songs, stories, crafts and knowledge of the Kalahari.",
+          image: "/img/states/ghanzi-1.png",
+        },
+        {
+          id: "02",
+          title: "Walk with Kalahari Trackers",
+          description:
+            "Guided bush walks reveal how expert trackers read prints, plants and subtle signs in the sand. These experiences celebrate generations of ecological knowledge and a deep relationship with the desert.",
+          image: "/img/states/ghanzi-2.png",
+        },
+        {
+          id: "03",
+          title: "Cattle Country & Game Ranches",
+          description:
+            "Ghanzi's broad ranchlands produce renowned free-range beef and support wildlife experiences on private reserves. Sundowners, game drives and brilliant night skies complete the relaxed frontier atmosphere.",
+          image: "/img/states/ghanzi-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <MapPin size={30} />,
+        title: "Kalahari Gateway",
+        description: "A natural stop between Botswana, Maun and Namibia",
+      },
+      {
+        icon: <Layers size={30} />,
+        title: "San Arts & Culture",
+        description: "D'Kar is renowned for creativity, dance and heritage",
+      },
+      {
+        icon: <Wallet size={30} />,
+        title: "Cattle Capital",
+        description: "One of Botswana's leading free-range beef regions",
+      },
+    ],
+  },
+  kgalagadi: {
+    stateSlug: "kgalagadi",
+    shortName: "Kgalagadi",
+    fullName: "Kgalagadi District",
+    eventSlug: "Kgalagadi",
+    hero: {
+      imageUrl: "/img/states/kgalagadi-hero.png",
+      title: "Kgalagadi: Red Dunes, Black-Maned Lions and Endless Sky",
+    },
+    discover: {
+      description:
+        "Venture into Botswana's wild southwest for rolling red dunes, remote pans, desert wildlife and unforgettable star-filled nights.",
+      slides: [
+        {
+          id: "01",
+          title: "Kgalagadi Transfrontier Park",
+          description:
+            "This immense cross-border wilderness protects ancient river valleys, colourful dunes and free-ranging wildlife. Self-drive journeys reveal gemsbok, springbok, cheetah and the iconic black-maned Kalahari lion.",
+          image: "/img/states/kgalagadi-1.png",
+        },
+        {
+          id: "02",
+          title: "Mabuasehube's Wild Pans",
+          description:
+            "Remote campsites overlook vast pans where antelope gather and predators patrol. Mabuasehube rewards prepared travellers with solitude, dramatic sunsets and wildlife encounters right beyond camp.",
+          image: "/img/states/kgalagadi-2.png",
+        },
+        {
+          id: "03",
+          title: "Tsabong Desert Adventures",
+          description:
+            "Around Tsabong, visitors can experience camel rides, guided walks, dune activities and the rhythms of southern Kalahari town life, all set against brilliant red sand and open sky.",
+          image: "/img/states/kgalagadi-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <Sun size={30} />,
+        title: "Red-Dune Wilderness",
+        description: "One of southern Africa's great desert landscapes",
+      },
+      {
+        icon: <MapPin size={30} />,
+        title: "Black-Maned Lions",
+        description: "Legendary predators roam the fossil river valleys",
+      },
+      {
+        icon: <Layers size={30} />,
+        title: "Remote Pan Camping",
+        description: "Extraordinary solitude around Mabuasehube",
+      },
+    ],
+  },
+  lobatse: {
+    stateSlug: "lobatse",
+    shortName: "Lobatse",
+    fullName: "Lobatse",
+    eventSlug: "Lobatse",
+    hero: {
+      imageUrl: "/img/states/lobatse-hero.png",
+      title: "Lobatse: Hills, Heritage and Botswana's Railway Story",
+    },
+    discover: {
+      description:
+        "Discover a characterful southern town where rocky hills, historic routes and Botswana's cattle economy meet.",
+      slides: [
+        {
+          id: "01",
+          title: "Railway Town Heritage",
+          description:
+            "Lobatse developed around the northbound railway in the late nineteenth century. The tracks, old routes and border-town setting still give it a distinctive place in Botswana's transport history.",
+          image: "/img/states/lobatse-1.png",
+        },
+        {
+          id: "02",
+          title: "Ancient Settlements & Rock Art",
+          description:
+            "Stone-wall remains around Lobatse preserve traces of early Bangwaketse settlements, while faded Khoe rock paintings depict wildebeest on nearby outcrops and add another layer to the area's long story.",
+          image: "/img/states/lobatse-2.png",
+        },
+        {
+          id: "03",
+          title: "Beef, Hills & Local Life",
+          description:
+            "Long associated with the Botswana Meat Commission, Lobatse reflects the national importance of cattle. Its dramatic hills, neighbourhood restaurants and easy pace make a rewarding southern stop.",
+          image: "/img/states/lobatse-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <TrendingUp size={30} />,
+        title: "Historic Railway Town",
+        description: "A key stop on Botswana's north-south route",
+      },
+      {
+        icon: <Layers size={30} />,
+        title: "Layered Archaeology",
+        description: "Stone settlements and centuries-old rock art",
+      },
+      {
+        icon: <Wallet size={30} />,
+        title: "Beef Industry Hub",
+        description: "Cattle remain central to the town's identity",
+      },
+    ],
+  },
+  "selibe-phikwe": {
+    stateSlug: "selibe-phikwe",
+    shortName: "Selibe Phikwe",
+    fullName: "Selibe Phikwe",
+    eventSlug: "SelibePhikwe",
+    hero: {
+      imageUrl: "/img/states/selibe-phikwe-hero.png",
+      title: "Selibe Phikwe: Reinvention, Adventure and Dam-Side Living",
+    },
+    discover: {
+      description:
+        "Experience an energetic eastern town reinventing its mining legacy through sport, leisure, enterprise and outdoor escapes.",
+      slides: [
+        {
+          id: "01",
+          title: "Letsibogo Dam Escapes",
+          description:
+            "Just beyond town, Letsibogo Dam opens onto broad water views, birdlife and colourful sunsets. Its developing leisure spaces make it a natural setting for picnics, waterside relaxation and outdoor adventure.",
+          image: "/img/states/selibe-phikwe-1.png",
+        },
+        {
+          id: "02",
+          title: "A Town in Motion",
+          description:
+            "Selibe Phikwe's sporting culture comes alive through road races, cycling and community events. The town's wide streets and resilient spirit create an upbeat setting for active weekends.",
+          image: "/img/states/selibe-phikwe-2.png",
+        },
+        {
+          id: "03",
+          title: "From Mining to New Possibilities",
+          description:
+            "Built around copper-nickel mining, the town is reshaping its industrial story through tourism, entrepreneurship and new investment while retaining the close-knit character forged by its past.",
+          image: "/img/states/selibe-phikwe-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <Layers size={30} />,
+        title: "Mining Heritage",
+        description: "An industrial town building an ambitious next chapter",
+      },
+      {
+        icon: <Sun size={30} />,
+        title: "Letsibogo Leisure",
+        description: "Dam views, birdlife and outdoor possibilities",
+      },
+      {
+        icon: <TrendingUp size={30} />,
+        title: "Sporting Energy",
+        description: "Known for races and active community events",
+      },
+    ],
+  },
+  jwaneng: {
+    stateSlug: "jwaneng",
+    shortName: "Jwaneng",
+    fullName: "Jwaneng",
+    eventSlug: "Jwaneng",
+    hero: {
+      imageUrl: "/img/states/jwaneng-hero.png",
+      title: "Jwaneng: Diamonds, Wildlife and a Remarkable Desert Town",
+    },
+    discover: {
+      description:
+        "See how modern planning, diamond history and Kalahari wildlife come together in one of Botswana's most distinctive towns.",
+      slides: [
+        {
+          id: "01",
+          title: "The Diamond Story",
+          description:
+            "Jwaneng grew beside one of the world's richest diamond mines by value. The town's story offers insight into the industry that helped shape modern Botswana and its remarkable national development.",
+          image: "/img/states/jwaneng-1.png",
+        },
+        {
+          id: "02",
+          title: "Jwana Game Park",
+          description:
+            "A conservation area beside town provides habitat for wildlife including antelope, giraffe and abundant birds. Guided access offers a surprising nature experience close to Jwaneng's urban neighbourhoods.",
+          image: "/img/states/jwaneng-2.png",
+        },
+        {
+          id: "03",
+          title: "Green Spaces in the Kalahari",
+          description:
+            "Tree-lined streets, recreation grounds and community facilities make this planned town an inviting Kalahari base, with sporting events and local gatherings adding energy throughout the year.",
+          image: "/img/states/jwaneng-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <Wallet size={30} />,
+        title: "Diamond Town",
+        description: "Built beside a globally significant diamond mine",
+      },
+      {
+        icon: <MapPin size={30} />,
+        title: "Jwana Game Park",
+        description: "Wildlife conservation on the town's doorstep",
+      },
+      {
+        icon: <Sun size={30} />,
+        title: "Planned Kalahari Oasis",
+        description: "Green spaces and active community life",
+      },
+    ],
+  },
+  sowa: {
+    stateSlug: "sowa",
+    shortName: "Sowa Town",
+    fullName: "Sowa Town",
+    eventSlug: "Sowa",
+    hero: {
+      imageUrl: "/img/states/sowa-hero.png",
+      title: "Sowa Town: Salt, Flamingos and Infinite Horizons",
+    },
+    discover: {
+      description:
+        "Step onto the edge of Sua Pan, where mineral-rich landscapes, seasonal wetlands and immense skies create an otherworldly escape.",
+      slides: [
+        {
+          id: "01",
+          title: "The Vast Sua Pan",
+          description:
+            "Sua Pan forms part of the immense Makgadikgadi system. Its brilliant salt crust and seemingly endless horizon create surreal scenery, transforming into a shallow blue lake after exceptional rains.",
+          image: "/img/states/sowa-1.png",
+        },
+        {
+          id: "02",
+          title: "A Flamingo Spectacle",
+          description:
+            "When water and food conditions align, huge numbers of greater and lesser flamingos gather across Sua Pan. Their pink flocks against the pale landscape create one of Botswana's great seasonal sights.",
+          image: "/img/states/sowa-2.png",
+        },
+        {
+          id: "03",
+          title: "Life in a Salt-Pan Town",
+          description:
+            "Purpose-built around soda-ash production, Sowa Town is a compact, welcoming base for understanding the minerals beneath the pans and exploring the striking landscapes of Botswana's east.",
+          image: "/img/states/sowa-3.png",
+        },
+      ],
+    },
+    quickFacts: [
+      {
+        icon: <Sun size={30} />,
+        title: "Makgadikgadi Horizons",
+        description: "A vast salt landscape stretching toward infinity",
+      },
+      {
+        icon: <MapPin size={30} />,
+        title: "Seasonal Flamingos",
+        description: "Spectacular flocks arrive when the pan floods",
+      },
+      {
+        icon: <Wallet size={30} />,
+        title: "Soda-Ash Town",
+        description: "A modern community shaped by mineral production",
+      },
+    ],
+  },
 };
 
 export function getStateData(slug: string): StateData | undefined {
