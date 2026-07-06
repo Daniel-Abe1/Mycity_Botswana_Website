@@ -11,7 +11,7 @@ const users = [
   {
     name: "Richard",
     image: "/img/real-users/richard.jpg",
-    desc: "Stay ahead of the traffic. Check updates around Elegushi Beach, Lekki Phase 1, and nearby roads.",
+    desc: "Stay ahead of the traffic. Check updates around Gaborone CBD, Tlokweng, and nearby roads.",
   },
   {
     name: "Shakira",

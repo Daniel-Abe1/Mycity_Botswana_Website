@@ -26,15 +26,6 @@ const DigitalCompanionPage = () => {
           </p>
         </header>
 
-        {/* <section className="aspect-[2.36/1] relative my-12 rounded-2xl overflow-hidden">
-          <Image 
-            src={"/img/blog_image_1.png"} 
-            alt="MyCityApp Africa Digital Companion" 
-            fill 
-            className="object-cover"
-          />
-        </section> */}
-
         <div className="grid md:grid-cols-[1fr_400px] gap-12 mt-5">
           <article className="max-w-[768px] space-y-8 text-[#344054]">
             <section>

@@ -13,47 +13,47 @@ import CtaPhone from "@/components/CtaPhone";
 
 const heroSlides = [
   {
-    image: "/img/see-naija/see-naija-1.png",
+    image: "/img/tourism-hero/hero-1.png",
     location: "Discovery museum, Abuja",
   },
   {
-    image: "/img/see-naija/see-naija-2.png",
+    image: "/img/tourism-hero/hero-2.png",
     location: "Durban Festival, Kano",
   },
   {
-    image: "/img/see-naija/see-naija-3.png",
+    image: "/img/tourism-hero/hero-3.png",
     location: "Zuma rock, Abuja",
   },
   {
-    image: "/img/see-naija/see-naija-4.png",
+    image: "/img/tourism-hero/hero-4.png",
     location: "National Theatre, Lagos State",
   },
 ];
 
 const adventure = [
-  { title: "Eyo Festival", description: 'Experience the iconic white-robed masquerades celebrating Lagos heritage', state: 'Lagos state', imageUrl: "/img/tourism/Eyo Festival.png" },
-  { title: "Ojude Oba", description: 'Witness the colorful Aso Oke ceremonies of Yoruba culture', state: 'Ogun state', imageUrl: "/img/tourism/Traditional Wedding.png" },
-  { title: "Durbar Festival", description: 'The festival features a colorful parade of horsemen, including emirs and their entourages, dressed in elaborate traditional robes and turbans.', state: 'Kano state', imageUrl: "/img/tourism/Royal Heritage.png" },
+  { title: "Eyo Festival", description: 'Experience the iconic white-robed masquerades celebrating Lagos heritage', state: 'Lagos state', imageUrl: "/img/tourism/cultural-experience-1.png" },
+  { title: "Ojude Oba", description: 'Witness the colorful Aso Oke ceremonies of Yoruba culture', state: 'Ogun state', imageUrl: "/img/tourism/cultural-experience-2.png" },
+  { title: "Durbar Festival", description: 'The festival features a colorful parade of horsemen, including emirs and their entourages, dressed in elaborate traditional robes and turbans.', state: 'Kano state', imageUrl: "/img/tourism/heritage-experience.png" },
 ];
 
 const holidayDestinations = [
   {
     title: "Tropical Beaches",
     location: "Lagos & Cross River",
-    imageUrl: "/img/tourism/Tropical Beaches.png",
+    imageUrl: "/img/tourism/holiday-destination-1.png",
     featured: true,
     tag: "Featured"
   },
   {
     title: "Rainforest Waterfalls",
     location: "Cross River",
-    imageUrl: "/img/tourism/Rainforest Waterfalls.png",
+    imageUrl: "/img/tourism/holiday-destination-2.png",
     featured: false
   },
   {
     title: "Zuma Rock",
     location: "Niger State",
-    imageUrl: "/img/tourism/Zuma Rock.png",
+    imageUrl: "/img/tourism/holiday-destination-3.png",
     featured: false
   },
 ];
@@ -63,29 +63,29 @@ const historicalMonuments = [
     title: "Aso Rock",
     location: "Abuja",
     description: "Botswana's iconic presidential rock formation",
-    imageUrl: "/img/tourism/Aso Rock.png"
+    imageUrl: "/img/tourism/historical-landmark-1.png"
   },
   {
     title: "Oba's Palace",
     location: "Benin City",
     description: "Ancient royal palace with rich cultural heritage",
-    imageUrl: "/img/tourism/Oba's Palace.png"
+    imageUrl: "/img/tourism/historical-landmark-2.png"
   },
   {
     title: "Osun Sacred Grove",
     location: "Osun State",
     description: "A mystical forest sanctuary with World Heritage status",
-    imageUrl: "/img/tourism/Osun Sacred Grove.png"
+    imageUrl: "/img/tourism/historical-landmark-3.png"
   },
   {
     title: "Kano City Walls",
     location: "Kano",
     description: "14th century defensive walls spanning 14km",
-    imageUrl: "/img/tourism/Royal Heritage.png"
+    imageUrl: "/img/tourism/heritage-experience.png"
   },
 ];
 
-const SeeNaijaPage = () => {
+const TourismPage = () => {
   const [activeIndex, setActiveIndex] = React.useState(0);
 
   return (
@@ -298,4 +298,4 @@ Botswana&apos;s cultural tapestry is woven with over 250 ethnic groups.
   );
 };
 
-export default SeeNaijaPage;
+export default TourismPage;

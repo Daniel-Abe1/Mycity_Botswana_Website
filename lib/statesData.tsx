@@ -29,7 +29,7 @@ export const statesData: Record<string, StateData> = {
     fullName: "Francistown",
     eventSlug: "Francistown",
     hero: {
-      imageUrl: "/img/states/abuja-hero.png",
+      imageUrl: "/img/states/francistown-hero.png",
       title: "Francistown: Heritage, Energy and the Spirit of the North",
     },
     discover: {
@@ -41,21 +41,21 @@ export const statesData: Record<string, StateData> = {
           title: "A City Shaped by Gold",
           description:
             "Francistown grew around historic gold-mining activity near the Tati and Inchwe rivers. Its old mining story, railway heritage and role as a northern trading centre give the city a character found nowhere else in Botswana.",
-          image: "/img/states/abuja-1.png",
+          image: "/img/states/francistown-1.png",
         },
         {
           id: "02",
           title: "Kalanga Culture & History",
           description:
             "Visit Supa Ngwao Museum to explore Kalanga heritage, traditional crafts, musical instruments and the early history of Francistown. Guided heritage walks reveal many of the city's most important historic sites.",
-          image: "/img/states/abuja-2.png",
+          image: "/img/states/francistown-2.png",
         },
         {
           id: "03",
           title: "Gateway to the North",
           description:
             "Close to the Zimbabwe border, Francistown is a lively stop on journeys to the Okavango Delta, Chobe and Victoria Falls, with busy markets, restaurants and warm northern hospitality.",
-          image: "/img/states/abuja-3.png",
+          image: "/img/states/francistown-3.png",
         },
       ],
     },
@@ -83,7 +83,7 @@ export const statesData: Record<string, StateData> = {
     fullName: "Central District",
     eventSlug: "Central",
     hero: {
-      imageUrl: "/img/states/cross-river-hero.png",
+      imageUrl: "/img/states/central-hero.png",
       title: "Central District: Heritage, Hills and Wild Encounters",
     },
     discover: {
@@ -95,21 +95,21 @@ export const statesData: Record<string, StateData> = {
           title: "Serowe & Bangwato Heritage",
           description:
             "Serowe is one of Botswana's most historically significant villages and the heartland of the Bangwato. Its royal history and links to Sir Seretse Khama make it an essential stop for understanding modern Botswana.",
-          image: "/img/states/cross-river-1.png",
+          image: "/img/states/central-1.png",
         },
         {
           id: "02",
           title: "Rhinos in the Wild",
           description:
             "Khama Rhino Sanctuary near Serowe is a community-led conservation success where visitors can see black and white rhino, zebra, wildebeest, giraffe and abundant birdlife on game drives and bush walks.",
-          image: "/img/states/cross-river-2.png",
+          image: "/img/states/central-2.png",
         },
         {
           id: "03",
           title: "Tswapong Hills & Goo-Moremi",
           description:
             "The Tswapong Hills rise above the eastern plains with wooded gorges, waterfalls and important cultural sites. Goo-Moremi Gorge is treasured for its hiking trails, clear pools, birdlife and spiritual significance.",
-          image: "/img/states/cross-river-3.png",
+          image: "/img/states/central-3.png",
         },
       ],
     },
@@ -137,7 +137,7 @@ export const statesData: Record<string, StateData> = {
     fullName: "Kweneng District",
     eventSlug: "Kweneng",
     hero: {
-      imageUrl: "/img/states/enugu-hero.png",
+      imageUrl: "/img/states/kweneng-hero.png",
       title: "Kweneng: Living Heritage at the Edge of the Kalahari",
     },
     discover: {
@@ -149,21 +149,21 @@ export const statesData: Record<string, StateData> = {
           title: "Molepolole & Bakwena Heritage",
           description:
             "Molepolole, one of Botswana's largest traditional villages, is the cultural centre of the Bakwena. Its kgotla, local life and surrounding historic sites offer a rewarding introduction to the district.",
-          image: "/img/states/enugu-1.png",
+          image: "/img/states/kweneng-1.png",
         },
         {
           id: "02",
           title: "Manyana Rock Paintings",
           description:
             "The nationally protected paintings at Manyana depict giraffe, antelope, people and geometric forms. Created centuries ago by Khoe herders, they preserve an extraordinary record of early life in the region.",
-          image: "/img/states/enugu-2.png",
+          image: "/img/states/kweneng-2.png",
         },
         {
           id: "03",
           title: "Khutse & Kalahari Adventure",
           description:
             "Travel west through Kalahari villages toward Khutse Game Reserve, where open pans, fossil dunes and dry riverbeds support springbok, gemsbok, giraffe, predators and memorable wilderness drives.",
-          image: "/img/states/enugu-3.png",
+          image: "/img/states/kweneng-3.png",
         },
       ],
     },
@@ -191,7 +191,7 @@ export const statesData: Record<string, StateData> = {
     fullName: "South-East District",
     eventSlug: "South-East",
     hero: {
-      imageUrl: "/img/states/ogun-hero.png",
+      imageUrl: "/img/states/south-east-hero.png",
       title: "South-East: Culture, Hills and City-Side Escapes",
     },
     discover: {
@@ -203,21 +203,21 @@ export const statesData: Record<string, StateData> = {
           title: "Ramotswa & Living Culture",
           description:
             "Ramotswa is the traditional home of the Balete and a centre of village life in the South-East. Its kgotla, community traditions and nearby landscapes offer an authentic view of Botswana beyond the capital.",
-          image: "/img/states/ogun-1.png",
+          image: "/img/states/south-east-1.png",
         },
         {
           id: "02",
           title: "Otse Hills & Manyelanong",
           description:
             "The hills around Otse create one of the district's most distinctive landscapes. Nearby Manyelanong is known as an important breeding sanctuary for the threatened Cape vulture.",
-          image: "/img/states/ogun-2.png",
+          image: "/img/states/south-east-2.png",
         },
         {
           id: "03",
           title: "Close to Greater Gaborone",
           description:
             "The district is well placed for combining village experiences with Greater Gaborone's museums, arts, dining, shopping, dam views and nearby wildlife activities.",
-          image: "/img/states/ogun-3.png",
+          image: "/img/states/south-east-3.png",
         },
       ],
     },
@@ -245,7 +245,7 @@ export const statesData: Record<string, StateData> = {
     fullName: "Southern District",
     eventSlug: "Southern",
     hero: {
-      imageUrl: "/img/states/abia-hero.png",
+      imageUrl: "/img/states/southern-hero.png",
       title: "Southern District: Hills, Heritage and Cattle Country",
     },
     discover: {
@@ -257,21 +257,21 @@ export const statesData: Record<string, StateData> = {
           title: "Kanye & Bangwaketse Culture",
           description:
             "Kanye is the traditional capital of the Bangwaketse, set among attractive hills. Its historic kgotla, village character and surrounding viewpoints make it one of southern Botswana's key cultural destinations.",
-          image: "/img/states/abia-1.png",
+          image: "/img/states/southern-1.png",
         },
         {
           id: "02",
           title: "Lobatse & Railway Heritage",
           description:
             "Lobatse grew around the northbound railway and remains closely linked to Botswana's cattle industry. Archaeological remains and old settlement sites around the town reveal layers of Bangwaketse history.",
-          image: "/img/states/abia-2.png",
+          image: "/img/states/southern-2.png",
         },
         {
           id: "03",
           title: "Ranches & Open Landscapes",
           description:
             "The district's cattle posts, farms and broad southern landscapes reflect the importance of livestock to Botswana's economy and everyday culture, with quiet roads connecting characterful towns and villages.",
-          image: "/img/states/abia-3.png",
+          image: "/img/states/southern-3.png",
         },
       ],
     },
@@ -299,7 +299,7 @@ export const statesData: Record<string, StateData> = {
     fullName: "North-West District",
     eventSlug: "North-West",
     hero: {
-      imageUrl: "/img/states/kano-hero.png",
+      imageUrl: "/img/states/north-west-hero.png",
       title: "North-West: Where the Kalahari Meets the Okavango",
     },
     discover: {
@@ -311,21 +311,21 @@ export const statesData: Record<string, StateData> = {
           title: "The Okavango Delta",
           description:
             "The UNESCO-listed Okavango Delta spreads into a mosaic of channels, lagoons, islands and floodplains. Mokoro trips, boating, birdwatching and game viewing reveal its remarkable wildlife and seasonal beauty.",
-          image: "/img/states/kano-1.png",
+          image: "/img/states/north-west-1.png",
         },
         {
           id: "02",
           title: "Maun: Safari Gateway",
           description:
             "Set on the Delta's southern edge, Maun is Botswana's tourism capital and the starting point for many journeys into the Okavango and Moremi. The Thamalakane River gives this energetic frontier town its relaxed rhythm.",
-          image: "/img/states/kano-2.png",
+          image: "/img/states/north-west-2.png",
         },
         {
           id: "03",
           title: "Tsodilo Hills",
           description:
             "Sacred to San and Hambukushu communities, Tsodilo is a UNESCO World Heritage Site with thousands of rock paintings and evidence of human activity spanning many millennia.",
-          image: "/img/states/kano-3.png",
+          image: "/img/states/north-west-3.png",
         },
       ],
     },
@@ -353,7 +353,7 @@ export const statesData: Record<string, StateData> = {
     fullName: "Chobe District",
     eventSlug: "Chobe",
     hero: {
-      imageUrl: "/img/states/akwa-hero.png",
+      imageUrl: "/img/states/chobe-hero.png",
       title: "Chobe: River Safaris and the Kingdom of Elephants",
     },
     discover: {
@@ -365,21 +365,21 @@ export const statesData: Record<string, StateData> = {
           title: "The Chobe Riverfront",
           description:
             "The Chobe River supports an exceptional concentration of wildlife. Boat cruises and riverside game drives bring visitors close to elephants, buffalo, hippo, crocodiles and an extraordinary variety of birds.",
-          image: "/img/states/akwa-1.png",
+          image: "/img/states/chobe-1.png",
         },
         {
           id: "02",
           title: "Kasane: Gateway to the Wild",
           description:
             "Kasane sits beside the river at the entrance to Chobe National Park. It is the district's tourism hub and an ideal base for game drives, sunset cruises and journeys toward Victoria Falls.",
-          image: "/img/states/akwa-2.png",
+          image: "/img/states/chobe-2.png",
         },
         {
           id: "03",
           title: "Savuti & Linyanti",
           description:
             "Deeper in the wilderness, Savuti is renowned for predators and dramatic wildlife encounters, while the Linyanti waterways, forests and floodplains offer remote landscapes rich in elephant and buffalo.",
-          image: "/img/states/akwa-3.png",
+          image: "/img/states/chobe-3.png",
         },
       ],
     },

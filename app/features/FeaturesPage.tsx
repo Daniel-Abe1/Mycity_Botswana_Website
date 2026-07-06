@@ -107,9 +107,8 @@ const FeaturesPage = () => {
           </h4>
 
           <p className="max-w-[800px] mx-auto md:text-xl">
-            From Lagos to Abuja and other top cities in Botswana, MyCityApp Africa makes
-            your city <br />
-            experience easier and smarter.
+            From Gaborone to Francistown and other cities across Botswana, MyCityApp Africa makes
+            your city experience easier and smarter.
           </p>
         </section>
 

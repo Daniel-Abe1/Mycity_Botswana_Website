@@ -5,8 +5,8 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 const BotswanaTermsPage = () => {
   return (
-    <div>
-      <MaxWidthWrapper className="mt-12 lg:mt-40 flex max-w-5xl flex-col gap-1 mb-6">
+    <div className="min-h-screen bg-[linear-gradient(to_bottom,#F7FAFC_0%,#FAFCFD_16rem,#FDFEFE_30rem,#FFFFFF_46rem)]">
+      <MaxWidthWrapper className="pt-12 lg:pt-40 flex max-w-5xl flex-col gap-1 mb-6">
         <span className="tracking-wide text-xs text-[#607D8E]">LEGAL</span>
         <h1 className="text-[2.5rem] font-black text-[#111111] leading-14">
           Terms &amp; Conditions - CityApp Africa

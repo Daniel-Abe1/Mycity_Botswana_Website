@@ -18,14 +18,6 @@ html{
    background-color: #f8fbfd;
 }
 
-/* .bg-pattern-bottom {
-  background-image: url("/zig-zag.svg");
-  background-repeat: repeat-y;         
-  background-size: 102.5% auto;           
-  background-position: center -25px;    
-}
- */
-
 /* Default body font */
 body {
   font-family: "Geist", sans-serif;

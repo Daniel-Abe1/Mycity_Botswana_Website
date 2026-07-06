@@ -247,7 +247,7 @@ const GaboroneDistrictPage = () => {
           <div className=" rounded-full bg-[#F5F5F5] pr-3 flex gap-2 py-0.5 items-center">
             <article className="h-6 aspect-4/1 relative">
               <Image
-                src="/img/city-lagos-avatar-group.png"
+                src="/img/city-gaborone-avatar-group.png"
                 className="object-contain"
                 alt=""
                 fill
@@ -265,7 +265,6 @@ const GaboroneDistrictPage = () => {
 
         <video
           className="absolute inset-0 w-full h-full object-cover scale-[1.3]"
-          // src="/video/lagos.webm"
           src="https://cdn-mycityapp.mtn.ng/mycityapp.micro.discovery/Discoveries/website/website/20260121120240-7d21b578.mp4"
           autoPlay
           loop
@@ -287,7 +286,7 @@ const GaboroneDistrictPage = () => {
           </p>
         </div>
         <Image
-          src="/img/knows-lagos-bg.png"
+          src="/img/knows-gaborone-bg.png"
           className="object-cover"
           alt=""
           fill
@@ -474,7 +473,7 @@ const GaboroneDistrictPage = () => {
 
               <div className="h-[250px] md:h-full w-full mt-4 md:mt-7 relative">
                 <Image
-                  src={"/img/lagos-one-app.png"}
+                  src={"/img/gaborone-one-app.png"}
                   fill
                   alt=""
                   className="object-left md:object-right object-contain"
