@@ -1,12 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaTwitter, FaLinkedin } from "react-icons/fa6";
+import { FaFacebookF, FaTiktok, FaInstagram } from "react-icons/fa6";
 import MaxWidthWrapper from "./MaxWidthWrapper";
 
 const socials = [
-  { name: "Twitter", icon: <FaTwitter />, href: "#" },
-  { name: "LinkedIn", icon: <FaLinkedin />, href: "#" },
+  {
+    name: "Facebook",
+    icon: <FaFacebookF />,
+    href: "https://web.facebook.com/mycityapp.bw",
+  },
+  {
+    name: "TikTok",
+    icon: <FaTiktok />,
+    href: "https://www.tiktok.com/@mycityapp_bw",
+  },
+  {
+    name: "Instagram",
+    icon: <FaInstagram />,
+    href: "https://www.instagram.com/mycityapp_bw/",
+  },
 ];
 
 const sitemap = [
@@ -46,6 +59,8 @@ const Footer = () => {
               <a
                 key={item.name}
                 href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={item.name}
                 className="hover:text-white transition-colors"
               >
@@ -95,7 +110,13 @@ const Footer = () => {
               <ul className="space-y-3 text-sm">
                 {socials.map((item) => (
                   <li key={item.name}>
-                    <a href={item.href}>{item.name}</a>
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {item.name}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -109,6 +130,8 @@ const Footer = () => {
               <a
                 key={item.name}
                 href={item.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={item.name}
                 className="hover:text-white transition-colors"
               >

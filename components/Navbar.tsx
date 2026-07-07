@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <header className="sticky top-0 lg:fixed lg:pt-8 w-full z-50">
-      <MaxWidthWrapper className="overflow-hidden border border-[#6DA9D2]/25 bg-white/95 shadow-[0_14px_45px_rgba(0,63,99,0.14)] backdrop-blur-xl lg:rounded-full lg:px-5 py-1 flex items-center relative">
+      <MaxWidthWrapper className="overflow-visible lg:overflow-hidden border border-[#6DA9D2]/25 bg-white/95 shadow-[0_14px_45px_rgba(0,63,99,0.14)] backdrop-blur-xl lg:rounded-full lg:px-5 py-1 flex items-center relative">
         {/* Logo */}
         <Link href={"/"} className="relative aspect-[2.5/1] h-14.5">
           <Image
